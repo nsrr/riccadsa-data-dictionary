@@ -1,0 +1,7 @@
+{
+  "id": "treatmentgroups",
+  "display_name": "CPAP treatment groups",
+  "description": "",
+  "type": "choices",
+  "domain": "treatmentgroups"
+}

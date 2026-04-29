@@ -1,0 +1,7 @@
+{
+  "id": "days_to_v1echo",
+  "display_name": "Number of days between screening and Visit 1 echocardiogram ",
+  "description": "",
+  "type": "numeric",
+  "units": "days"
+}

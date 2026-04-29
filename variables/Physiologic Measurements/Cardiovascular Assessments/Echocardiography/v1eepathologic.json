@@ -1,0 +1,7 @@
+{
+  "id": "v1eepathologic",
+  "display_name": "Pathologic E/e' at Visit 1 (baseline)",
+  "description": "E/e' >=15 is considered pathologic ",
+  "type": "choices",
+  "domain": "yes_no"
+}

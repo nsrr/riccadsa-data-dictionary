@@ -1,0 +1,7 @@
+{
+  "id": "v2_ssri",
+  "display_name": "Whether the patient is using selective seratonin reuptake inhibitor drug at Visit 2 (3 month follow-up)",
+  "description": "",
+  "type": "choices",
+  "domain": "yes_no"
+}

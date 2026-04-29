@@ -1,0 +1,7 @@
+{
+  "id": "v3_delta_bnp",
+  "display_name": "Change in B-type natriuretic peptide level at Visit 3",
+  "description": "",
+  "type": "numeric",
+  "units": "picograms per milliliter (pg/mL)"
+}

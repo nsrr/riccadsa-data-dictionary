@@ -1,0 +1,10 @@
+{
+  "id": "dbp_3m",
+  "display_name": "Diastolic blood pressure at 3-month follow-up",
+  "description": "",
+  "type": "numeric",
+  "units": "millimeters of mercury (mmHg)",
+  "labels": [
+    "bp_diastolic"
+  ]
+}

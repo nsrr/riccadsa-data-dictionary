@@ -1,0 +1,22 @@
+[
+  {
+    "value": "1",
+    "display_name": "First quartile ",
+    "description": ""
+  },
+  {
+    "value": "2",
+    "display_name": "Second quartile",
+    "description": ""
+  },
+  {
+    "value": "3",
+    "display_name": "Third quartile",
+    "description": ""
+  },
+  {
+    "value": "4",
+    "display_name": "Fourth quartile",
+    "description": ""
+  }
+]

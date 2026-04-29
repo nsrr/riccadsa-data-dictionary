@@ -1,0 +1,6 @@
+{
+  "id": "date_hosp_af_cardiac_failure",
+  "display_name": "Date of hospitalization due to atrial fibrilation or cardiac failure",
+  "description": "",
+  "type": "date"
+}

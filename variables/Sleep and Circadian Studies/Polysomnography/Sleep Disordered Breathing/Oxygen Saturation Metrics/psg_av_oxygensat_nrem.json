@@ -1,0 +1,10 @@
+{
+  "id": "psg_av_oxygensat_nrem",
+  "display_name": "Average level of oxygen saturation during NREM Sleep from type II polysomnography",
+  "description": "",
+  "type": "numeric",
+  "units": "percent (%)",
+  "labels": [
+    "avglvlsa_sn_f1t2"
+  ]
+}

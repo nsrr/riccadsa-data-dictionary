@@ -1,0 +1,22 @@
+[
+  {
+    "value": "1",
+    "display_name": " S8 type I",
+    "description": ""
+  },
+  {
+    "value": "2",
+    "display_name": " S8 type II",
+    "description": ""
+  },
+  {
+    "value": "3",
+    "display_name": "S9",
+    "description": ""
+  },
+  {
+    "value": "4",
+    "display_name": "Other",
+    "description": ""
+  }
+]

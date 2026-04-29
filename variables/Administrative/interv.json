@@ -1,0 +1,7 @@
+{
+  "id": "interv",
+  "display_name": "The type of revascularization intervention (PCI or CABG)",
+  "description": "",
+  "type": "choices",
+  "domain": "interv"
+}

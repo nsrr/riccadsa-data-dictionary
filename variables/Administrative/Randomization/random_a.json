@@ -1,0 +1,7 @@
+{
+  "id": "random_a",
+  "display_name": "CPAP Treatment Randomization (Within Group A)",
+  "description": "",
+  "type": "choices",
+  "domain": "randoma"
+}

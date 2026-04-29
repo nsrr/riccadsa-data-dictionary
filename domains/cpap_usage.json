@@ -1,0 +1,12 @@
+[
+  {
+    "value": "0",
+    "display_name": "Below cutoff (<= cutoff)",
+    "description": ""
+  },
+  {
+    "value": "1",
+    "display_name": "Above cutoff (> cutoff)",
+    "description": ""
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "id": "newpci_date",
+  "display_name": "Date of new Percutaneous Coronary Intervention",
+  "description": "",
+  "type": "date"
+}

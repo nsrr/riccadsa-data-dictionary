@@ -1,0 +1,12 @@
+{
+  "id": "time_on_cpap",
+  "display_name": "Number of Days between CPAP start date and return date",
+  "description": "",
+  "type": "numeric",
+  "units": "days",
+  "calculation": "(CPAP_return_date-CPAP_start:date)/(60x60x24)",
+  "labels": [
+    "epworth",
+    "subjective_sleepiness"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "id": "v2depressed",
+  "display_name": "Indicator of depression (DEPRSCORE >= 50) at Visit 2 (3-month follow-up)",
+  "description": "",
+  "type": "choices",
+  "domain": "yes_no"
+}

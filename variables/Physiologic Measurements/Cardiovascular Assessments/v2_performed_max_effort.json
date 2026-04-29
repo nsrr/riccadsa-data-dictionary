@@ -1,0 +1,7 @@
+{
+  "id": "v2_performed_max_effort",
+  "display_name": "Maximal effort performed Visit 2 (3-month follow-up)",
+  "description": "",
+  "type": "numeric",
+  "units": "watts (W)"
+}

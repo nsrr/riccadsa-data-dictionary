@@ -1,0 +1,7 @@
+{
+  "id": "v2_dbp_rest",
+  "display_name": "Resting diastolic blood pressure at Visit 2 (3-month follow-up)",
+  "description": "",
+  "type": "numeric",
+  "units": "millimeters of mercury (mmHg)"
+}

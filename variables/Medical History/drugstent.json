@@ -1,0 +1,7 @@
+{
+  "id": "drugstent",
+  "display_name": "Stent Type (Drug or Bare Metal)",
+  "description": "",
+  "type": "choices",
+  "domain": "drugstent"
+}

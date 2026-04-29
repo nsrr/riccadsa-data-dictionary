@@ -1,0 +1,7 @@
+{
+  "id": "lgn_quartiles",
+  "display_name": "Quartile of LGn",
+  "description": "",
+  "type": "choices",
+  "domain": "quartiles"
+}

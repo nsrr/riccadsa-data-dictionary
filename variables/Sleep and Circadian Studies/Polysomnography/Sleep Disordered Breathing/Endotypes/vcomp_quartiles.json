@@ -1,0 +1,7 @@
+{
+  "id": "vcomp_quartiles",
+  "display_name": "Quartile of Vcomp",
+  "description": "",
+  "type": "choices",
+  "domain": "quartiles"
+}

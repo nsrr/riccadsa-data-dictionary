@@ -1,0 +1,7 @@
+{
+  "id": "v3eepathologic",
+  "display_name": "Pathologic E/e' at Visit 3 (1-year follow-up)",
+  "description": "",
+  "type": "choices",
+  "domain": "yes_no"
+}

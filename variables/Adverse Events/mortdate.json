@@ -1,0 +1,6 @@
+{
+  "id": "mortdate",
+  "display_name": "Date of mortality",
+  "description": "",
+  "type": "date"
+}

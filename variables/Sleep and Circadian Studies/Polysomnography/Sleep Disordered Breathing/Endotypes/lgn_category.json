@@ -1,0 +1,7 @@
+{
+  "id": "lgn_category",
+  "display_name": "Category of LGn",
+  "description": "",
+  "type": "choices",
+  "domain": "endo_cat"
+}

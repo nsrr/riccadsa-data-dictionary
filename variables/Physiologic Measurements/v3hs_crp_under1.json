@@ -1,0 +1,7 @@
+{
+  "id": "v3hs_crp_under1",
+  "display_name": "High Sensitivity C-Reactive Protein under 1 at Visit 3",
+  "description": "",
+  "type": "choices",
+  "domain": "crp_1"
+}

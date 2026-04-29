@@ -1,0 +1,10 @@
+{
+  "id": "psg_rem_minutes",
+  "display_name": "Total duration of Rapid Eye Movement (REM) sleep from type II polysomnography",
+  "description": "",
+  "type": "numeric",
+  "units": "minutes (min)",
+  "labels": [
+    "ttldursp_sr_f1t2"
+  ]
+}

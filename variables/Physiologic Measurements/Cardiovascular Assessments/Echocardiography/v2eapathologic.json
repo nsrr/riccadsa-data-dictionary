@@ -1,0 +1,7 @@
+{
+  "id": "v2eapathologic",
+  "display_name": "Pathologic E/A ratio at Visit 2 (3-month follow-up)",
+  "description": "E/A < 0.8 is considered pathologic",
+  "type": "choices",
+  "domain": "yes_no"
+}

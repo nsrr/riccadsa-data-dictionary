@@ -1,0 +1,6 @@
+{
+  "id": "newrevasc_date",
+  "display_name": "Date of new revascularization",
+  "description": "",
+  "type": "date"
+}

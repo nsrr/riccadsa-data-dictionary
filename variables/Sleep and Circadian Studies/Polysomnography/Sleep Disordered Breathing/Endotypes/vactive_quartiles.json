@@ -1,0 +1,7 @@
+{
+  "id": "vactive_quartiles",
+  "display_name": "Quartile of Vactive",
+  "description": "",
+  "type": "choices",
+  "domain": "quartiles"
+}

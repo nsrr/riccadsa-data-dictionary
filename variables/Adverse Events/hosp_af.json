@@ -1,0 +1,7 @@
+{
+  "id": "hosp_af",
+  "display_name": "Hospitalization due to atrial fibrilation",
+  "description": "",
+  "type": "choices",
+  "domain": "yes_no"
+}

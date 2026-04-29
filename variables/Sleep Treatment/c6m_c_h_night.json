@@ -1,0 +1,7 @@
+{
+  "id": "c6m_c_h_night",
+  "display_name": "CPAP hours per CPAP nights at 6 months follow-up",
+  "description": "",
+  "type": "numeric",
+  "units": "hours per night"
+}

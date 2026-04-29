@@ -1,0 +1,7 @@
+{
+  "id": "newpci",
+  "display_name": "New Percutaneous Coronary Intervention",
+  "description": "",
+  "type": "choices",
+  "domain": "yes_no"
+}

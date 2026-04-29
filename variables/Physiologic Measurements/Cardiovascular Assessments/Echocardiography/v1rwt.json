@@ -1,0 +1,7 @@
+{
+  "id": "v1rwt",
+  "display_name": "Relative Wall Thickness (RWT) at Visit 1 (baseline)",
+  "description": "",
+  "type": "numeric",
+  "calculation": "(2*LVPW)/LVDD"
+}

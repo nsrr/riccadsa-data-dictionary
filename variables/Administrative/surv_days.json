@@ -1,0 +1,7 @@
+{
+  "id": "surv_days",
+  "display_name": "Survival days",
+  "description": "",
+  "type": "numeric",
+  "units": "days"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "c6yr_adj_hours",
+  "display_name": "Adjusted CPAP hours at 6-year follow-up (CPAP hours/night x Percentage of CPAP days/Follow-up days)",
+  "description": "",
+  "type": "numeric",
+  "units": "hours per night"
+}

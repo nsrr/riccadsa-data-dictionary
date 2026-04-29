@@ -1,0 +1,7 @@
+{
+  "id": "return_clusters",
+  "display_name": "Grouping patients based on the CPAP return reasons",
+  "description": "",
+  "type": "choices",
+  "domain": "return_clusters"
+}

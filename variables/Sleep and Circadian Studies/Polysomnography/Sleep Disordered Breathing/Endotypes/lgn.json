@@ -1,0 +1,6 @@
+{
+  "id": "lgn",
+  "display_name": "Loop gain calculated at subject-specific natural cycling frequency of respiratory events ",
+  "description": "Calculated as the magnitude of the ventilatory drive response to ventilatory disturbance occuring at natural cycling frequency of respiratory events specific to the subject.",
+  "type": "numeric"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "psg_mean_pulse",
+  "display_name": "Mean pulse from type II polysomnography",
+  "description": "",
+  "type": "numeric",
+  "units": "beats per minute (bpm)"
+}

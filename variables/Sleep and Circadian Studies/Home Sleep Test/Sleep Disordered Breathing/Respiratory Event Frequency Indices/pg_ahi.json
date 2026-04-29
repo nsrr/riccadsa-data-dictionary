@@ -1,0 +1,10 @@
+{
+  "id": "pg_ahi",
+  "display_name": "Apnea Hyponea Index: (All apneas + hypopneas with 30%-50% flow reduction and with >= 4% oxygen desaturation, and hypopneas with > 50% flow reduction / hour of estimated sleep from type III home sleep apnea test",
+  "description": "",
+  "type": "numeric",
+  "units": "number of events per hour",
+  "labels": [
+    "rei_ap0nhp3x5x4nhp5x0n_f1t3"
+  ]
+}

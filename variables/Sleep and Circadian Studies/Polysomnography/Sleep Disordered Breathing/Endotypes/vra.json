@@ -1,0 +1,6 @@
+{
+  "id": "vra",
+  "display_name": "Ventilatory response to arousal",
+  "description": "The increase in ventilatory drive that is attributable to arousal/wakefulness",
+  "type": "numeric"
+}

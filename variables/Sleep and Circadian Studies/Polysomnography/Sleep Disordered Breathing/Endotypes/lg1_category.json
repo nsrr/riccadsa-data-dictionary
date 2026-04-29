@@ -1,0 +1,7 @@
+{
+  "id": "lg1_category",
+  "display_name": "Category of LG1 (above or below median)",
+  "description": "",
+  "type": "choices",
+  "domain": "endo_cat"
+}

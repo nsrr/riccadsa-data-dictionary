@@ -1,0 +1,7 @@
+{
+  "id": "arthres_category",
+  "display_name": "Category of Arousal Threshold",
+  "description": "",
+  "type": "choices",
+  "domain": "endo_cat"
+}

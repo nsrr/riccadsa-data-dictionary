@@ -1,0 +1,7 @@
+{
+  "id": "v1lvds",
+  "display_name": "Left ventricular dimension at end-systole at Visit 1 (baseline)",
+  "description": "",
+  "type": "numeric",
+  "units": "millimeters (mm)"
+}

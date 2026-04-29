@@ -1,0 +1,7 @@
+{
+  "id": "ami_baseline",
+  "display_name": "Whether a patient had acute myocardial infarction or not at baseline",
+  "description": "",
+  "type": "choices",
+  "domain": "yes_no"
+}

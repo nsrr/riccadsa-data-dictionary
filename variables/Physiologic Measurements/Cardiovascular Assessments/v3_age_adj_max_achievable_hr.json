@@ -1,0 +1,7 @@
+{
+  "id": "v3_age_adj_max_achievable_hr",
+  "display_name": "Age adjusted maximal achievable Heart Rate at Visit 3 (1-year follow-up)",
+  "description": "Max achievable HR: (220 - age at time of exercise test)",
+  "type": "numeric",
+  "units": "beats per minute (bpm)"
+}

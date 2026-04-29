@@ -1,0 +1,10 @@
+{
+  "id": "sbp_1yr",
+  "display_name": "Systolic blood pressure at 1-year follow-up",
+  "description": "",
+  "type": "numeric",
+  "units": "millimeters of mercury (mmHg)",
+  "labels": [
+    "bp_systolic"
+  ]
+}

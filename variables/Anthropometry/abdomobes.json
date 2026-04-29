@@ -1,0 +1,7 @@
+{
+  "id": "abdomobes",
+  "display_name": "Whether a patient has abdominal obesity (WHR>=0.9 men, >=0.8 women) or not at Visit 1 (baseline)",
+  "description": "",
+  "type": "choices",
+  "domain": "yes_no"
+}

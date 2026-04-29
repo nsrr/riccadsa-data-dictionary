@@ -1,0 +1,7 @@
+{
+  "id": "weight_3m",
+  "display_name": "Weight (kg) at 3 Months",
+  "description": "",
+  "type": "numeric",
+  "units": "kilograms (kg)"
+}

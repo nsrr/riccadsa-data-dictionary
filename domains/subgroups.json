@@ -1,0 +1,22 @@
+[
+  {
+    "value": "1",
+    "display_name": "NonSleepy OSA patients randomized to CPAP treatment",
+    "description": ""
+  },
+  {
+    "value": "2",
+    "display_name": "Nonsleepy OSA patients randomized No-CPAP treatment",
+    "description": ""
+  },
+  {
+    "value": "3",
+    "display_name": "Sleepy OSA patients received CPAP treatment",
+    "description": ""
+  },
+  {
+    "value": "4",
+    "display_name": "No-OSA patients (CONTROLS)",
+    "description": ""
+  }
+]

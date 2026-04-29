@@ -1,0 +1,10 @@
+{
+  "id": "psg_supine_time",
+  "display_name": "Total duration of sleep in supine position from type II polysomnography",
+  "description": "",
+  "type": "numeric",
+  "units": "minutes (min)",
+  "labels": [
+    "ttldursp_pb_f1t2"
+  ]
+}

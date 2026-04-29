@@ -1,0 +1,7 @@
+{
+  "id": "paroxaftype",
+  "display_name": "Paroxysmal atrial fibrilation type",
+  "description": "",
+  "type": "choices",
+  "domain": "paroxaftype"
+}

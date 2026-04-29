@@ -1,0 +1,7 @@
+{
+  "id": "c1m_cpapd",
+  "display_name": "Total CPAP use-days to 1 month follow-up",
+  "description": "",
+  "type": "numeric",
+  "units": "days"
+}

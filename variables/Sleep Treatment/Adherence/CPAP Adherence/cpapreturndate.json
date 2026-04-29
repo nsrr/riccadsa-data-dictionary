@@ -1,0 +1,6 @@
+{
+  "id": "cpapreturndate",
+  "display_name": "Date of CPAP return",
+  "description": "",
+  "type": "date"
+}

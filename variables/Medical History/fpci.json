@@ -1,0 +1,7 @@
+{
+  "id": "fpci",
+  "display_name": "Previous PCI",
+  "description": "",
+  "type": "choices",
+  "domain": "yes_no"
+}

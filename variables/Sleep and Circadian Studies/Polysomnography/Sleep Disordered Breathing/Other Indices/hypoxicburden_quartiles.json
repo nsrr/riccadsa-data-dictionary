@@ -1,0 +1,7 @@
+{
+  "id": "hypoxicburden_quartiles",
+  "display_name": "Quartile of Hypoxic Burden",
+  "description": "",
+  "type": "choices",
+  "domain": "quartiles"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "age",
+  "display_name": "Age",
+  "description": "",
+  "type": "numeric",
+  "units": "years",
+  "calculation": "(datinter-birthdat)/(60x60x24x365.24)",
+  "commonly_used": true
+}

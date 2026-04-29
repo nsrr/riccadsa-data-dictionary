@@ -1,0 +1,6 @@
+{
+  "id": "incident_stroke_date",
+  "display_name": "Date of stroke if it is present",
+  "description": "",
+  "type": "date"
+}

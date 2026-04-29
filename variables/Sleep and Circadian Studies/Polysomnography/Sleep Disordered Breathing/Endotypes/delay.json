@@ -1,0 +1,6 @@
+{
+  "id": "delay",
+  "display_name": "Chemoreflex delay",
+  "description": "The latency between a drop in ventilation and a subsequent reflex rise in ventilatory drive",
+  "type": "numeric"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "psg_nrem_ahi",
+  "display_name": "Apnea-Hypopnea Index (Non-REM): (All apneas + hypopneas with >50% flow reduction or discernible flow reduction with >=4% desat or arousal) / hour of non-REM sleep from type II polysomnography",
+  "description": "",
+  "type": "numeric",
+  "units": "number of events per hour"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "adh_5yr",
+  "display_name": "Patient is adherent (still owning CPAP) at 5-year follow-up",
+  "description": "",
+  "type": "choices",
+  "domain": "yes_no"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "v3_at2ant",
+  "display_name": "Whether the patient is using Angiotensin-II-receptor antagonists at Visit 3 (1 year follow-up)",
+  "description": "",
+  "type": "choices",
+  "domain": "yes_no"
+}

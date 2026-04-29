@@ -1,0 +1,7 @@
+{
+  "id": "vpassive_category",
+  "display_name": "Category of Vpassive",
+  "description": "",
+  "type": "choices",
+  "domain": "endo_cat"
+}

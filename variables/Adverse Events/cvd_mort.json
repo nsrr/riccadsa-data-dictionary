@@ -1,0 +1,7 @@
+{
+  "id": "cvd_mort",
+  "display_name": "Cardiovascular mortality status",
+  "description": "",
+  "type": "choices",
+  "domain": "yes_no"
+}

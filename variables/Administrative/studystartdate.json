@@ -1,0 +1,6 @@
+{
+  "id": "studystartdate",
+  "display_name": "The date a patient was enrolled in the RICCADSA study",
+  "description": "",
+  "type": "date"
+}

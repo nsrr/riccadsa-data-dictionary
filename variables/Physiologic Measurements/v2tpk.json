@@ -1,0 +1,7 @@
+{
+  "id": "v2tpk",
+  "display_name": "Platelet Count at Visit 2 (3 month follow-up)",
+  "description": "",
+  "type": "numeric",
+  "units": "10^9/L"
+}

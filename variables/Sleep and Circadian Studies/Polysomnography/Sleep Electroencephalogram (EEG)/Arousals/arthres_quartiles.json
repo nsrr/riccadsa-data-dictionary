@@ -1,0 +1,7 @@
+{
+  "id": "arthres_quartiles",
+  "display_name": "Quartile of Arousal Threshold ",
+  "description": "",
+  "type": "choices",
+  "domain": "quartiles"
+}

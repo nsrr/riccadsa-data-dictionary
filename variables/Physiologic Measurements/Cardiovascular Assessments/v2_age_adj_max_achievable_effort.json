@@ -1,0 +1,7 @@
+{
+  "id": "v2_age_adj_max_achievable_effort",
+  "display_name": "Age adjusted maximal achievable effort during maximal exercise test at Visit 2 (3-month follow-up)",
+  "description": "",
+  "type": "numeric",
+  "units": "watts (W)"
+}

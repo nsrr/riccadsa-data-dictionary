@@ -1,0 +1,7 @@
+{
+  "id": "aftype",
+  "display_name": "Atrial fibrilation type",
+  "description": "",
+  "type": "choices",
+  "domain": "aftype"
+}

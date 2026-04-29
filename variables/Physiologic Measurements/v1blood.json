@@ -1,0 +1,7 @@
+{
+  "id": "v1blood",
+  "display_name": "Blood samples collected at Visit 1 (baseline)",
+  "description": "",
+  "type": "choices",
+  "domain": "yes_no"
+}

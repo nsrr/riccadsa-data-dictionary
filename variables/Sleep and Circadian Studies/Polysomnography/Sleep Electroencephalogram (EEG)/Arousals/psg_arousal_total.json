@@ -1,0 +1,10 @@
+{
+  "id": "psg_arousal_total",
+  "display_name": "Arousal Index: Number of arousals per hour of sleep from type II polysomnography",
+  "description": "",
+  "type": "numeric",
+  "units": "number of events per hour",
+  "labels": [
+    "phrnumrs"
+  ]
+}

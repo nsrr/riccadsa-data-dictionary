@@ -1,0 +1,6 @@
+{
+  "id": "v3hfpef_like_score",
+  "display_name": "Composite score (0Ã¢ÂÂ5) representing the number of heart failure with preserved ejection fraction (HFpEF)-related abnormalities at Visit 3.",
+  "description": "Abnormalities include: dilated left atrial diameter, pathologic E/eÃ¢ÂÂ², pathologic left ventricular mass, pulmonary hypertension, and elevated NT-proBNP.",
+  "type": "integer"
+}

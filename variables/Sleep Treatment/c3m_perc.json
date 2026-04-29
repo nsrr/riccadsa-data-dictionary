@@ -1,0 +1,7 @@
+{
+  "id": "c3m_perc",
+  "display_name": "Percentage of CPAP days/Follow-up days at 3 months",
+  "description": "",
+  "type": "numeric",
+  "units": "percent (%)"
+}

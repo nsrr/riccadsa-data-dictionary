@@ -1,0 +1,7 @@
+{
+  "id": "daysfrominterv_to_v1",
+  "display_name": "Days between revascularization intervention and Visit 1 (baseline)",
+  "description": "",
+  "type": "numeric",
+  "units": "days"
+}

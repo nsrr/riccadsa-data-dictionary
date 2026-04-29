@@ -1,0 +1,7 @@
+{
+  "id": "c1m_resai",
+  "display_name": "Residual AI 1 Month",
+  "description": "",
+  "type": "numeric",
+  "units": "number of events per hour"
+}

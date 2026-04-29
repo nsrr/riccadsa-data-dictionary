@@ -1,0 +1,6 @@
+{
+  "id": "final_1yr_date",
+  "display_name": "Date of 1 year follow-up",
+  "description": "",
+  "type": "date"
+}

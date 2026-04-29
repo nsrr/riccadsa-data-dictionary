@@ -1,0 +1,7 @@
+{
+  "id": "deltaheartrate_category",
+  "display_name": "Category of Delta Heart Rate",
+  "description": "",
+  "type": "choices",
+  "domain": "endo_cat"
+}

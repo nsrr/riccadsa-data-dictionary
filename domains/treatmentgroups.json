@@ -1,0 +1,17 @@
+[
+  {
+    "value": "1",
+    "display_name": "OSA patients received CPAP treatment",
+    "description": ""
+  },
+  {
+    "value": "2",
+    "display_name": "OSA patients received no-CPAP treatment",
+    "description": ""
+  },
+  {
+    "value": "3",
+    "display_name": "No-OSA subjects received nothing",
+    "description": ""
+  }
+]

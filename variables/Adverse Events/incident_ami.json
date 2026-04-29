@@ -1,0 +1,7 @@
+{
+  "id": "incident_ami",
+  "display_name": "Incidence of acute myocardial infarction",
+  "description": "",
+  "type": "choices",
+  "domain": "yes_no"
+}

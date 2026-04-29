@@ -1,0 +1,7 @@
+{
+  "id": "waist_3m",
+  "display_name": "Waist measurement at 3-month follow-up",
+  "description": "",
+  "type": "numeric",
+  "units": "centimeters (cm)"
+}

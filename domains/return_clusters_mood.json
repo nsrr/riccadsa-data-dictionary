@@ -1,0 +1,22 @@
+[
+  {
+    "value": "1",
+    "display_name": "Anxiety",
+    "description": ""
+  },
+  {
+    "value": "2",
+    "display_name": "Insomnia",
+    "description": ""
+  },
+  {
+    "value": "3",
+    "display_name": "Depression",
+    "description": ""
+  },
+  {
+    "value": "4",
+    "display_name": "Discomfort_and_Others",
+    "description": ""
+  }
+]

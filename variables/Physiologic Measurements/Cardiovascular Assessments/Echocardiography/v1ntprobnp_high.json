@@ -1,0 +1,7 @@
+{
+  "id": "v1ntprobnp_high",
+  "display_name": "High N-terminal pro b-type natriuretic peptide levels at Visit 1 (baseline) ",
+  "description": "NTproBNP >=125  is high ",
+  "type": "choices",
+  "domain": "yes_no"
+}

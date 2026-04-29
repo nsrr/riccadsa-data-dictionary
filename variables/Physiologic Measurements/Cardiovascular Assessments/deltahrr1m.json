@@ -1,0 +1,7 @@
+{
+  "id": "deltahrr1m",
+  "display_name": "Change in heart rate recovery 1 minute post-exercise between Visit 2 and Visit 3",
+  "description": "",
+  "type": "numeric",
+  "units": "beats per minute (bpm)"
+}

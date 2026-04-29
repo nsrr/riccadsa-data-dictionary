@@ -1,0 +1,7 @@
+{
+  "id": "surv_months",
+  "display_name": "Survival months",
+  "description": "",
+  "type": "numeric",
+  "units": "months"
+}

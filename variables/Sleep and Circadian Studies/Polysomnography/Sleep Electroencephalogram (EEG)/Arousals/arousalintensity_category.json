@@ -1,0 +1,7 @@
+{
+  "id": "arousalintensity_category",
+  "display_name": "Category of Arousal Indensity",
+  "description": "",
+  "type": "choices",
+  "domain": "endo_cat"
+}

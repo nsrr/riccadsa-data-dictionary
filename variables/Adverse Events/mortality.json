@@ -1,0 +1,7 @@
+{
+  "id": "mortality",
+  "display_name": "Mortality status during the follow up period",
+  "description": "",
+  "type": "choices",
+  "domain": "yes_no"
+}

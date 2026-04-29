@@ -1,0 +1,17 @@
+[
+  {
+    "value": "1",
+    "display_name": "Rescue",
+    "description": ""
+  },
+  {
+    "value": "2",
+    "display_name": "Subacute",
+    "description": ""
+  },
+  {
+    "value": "3",
+    "display_name": "Elective",
+    "description": ""
+  }
+]

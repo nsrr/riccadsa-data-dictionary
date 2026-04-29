@@ -1,0 +1,7 @@
+{
+  "id": "diabtrtm",
+  "display_name": "Diabetes treatment type at baseline",
+  "description": "",
+  "type": "choices",
+  "domain": "diabtrtm"
+}

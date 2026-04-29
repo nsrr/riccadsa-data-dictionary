@@ -1,0 +1,12 @@
+[
+  {
+    "value": "1",
+    "display_name": "Low (Below median)",
+    "description": ""
+  },
+  {
+    "value": "2",
+    "display_name": "High (Above median)",
+    "description": ""
+  }
+]

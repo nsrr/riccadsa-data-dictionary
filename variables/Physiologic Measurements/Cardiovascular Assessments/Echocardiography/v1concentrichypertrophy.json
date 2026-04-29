@@ -1,0 +1,7 @@
+{
+  "id": "v1concentrichypertrophy",
+  "display_name": "Concentric Hypertrophy at Visit 1 (baseline)",
+  "description": "V1RWTpathologic and V1LVM_pathologic",
+  "type": "choices",
+  "domain": "yes_no"
+}

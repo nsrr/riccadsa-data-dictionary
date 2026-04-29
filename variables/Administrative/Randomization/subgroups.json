@@ -1,0 +1,7 @@
+{
+  "id": "subgroups",
+  "display_name": "Study subgroups based on sleepiness and CPAP treatment",
+  "description": "",
+  "type": "choices",
+  "domain": "subgroups"
+}

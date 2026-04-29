@@ -1,0 +1,7 @@
+{
+  "id": "vpassive",
+  "display_name": "Passive collapsibility ",
+  "description": "The level of ventilation at eupneic ventilatory drive, i.e. collapsibility under passive conditions.",
+  "type": "numeric",
+  "units": "percent (%)"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "v3_aceinh",
+  "display_name": "Whether the patient is using Angiotensin Converting Enzyme inhibitors at Visit 3 (1 year follow-up)",
+  "description": "",
+  "type": "choices",
+  "domain": "yes_no"
+}

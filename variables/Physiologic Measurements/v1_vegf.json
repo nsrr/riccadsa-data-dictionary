@@ -1,0 +1,7 @@
+{
+  "id": "v1_vegf",
+  "display_name": "Vascular endothelial growth factor at Visit 1 (baseline)",
+  "description": "",
+  "type": "numeric",
+  "units": "nanograms per milliliter (ng/mL)"
+}

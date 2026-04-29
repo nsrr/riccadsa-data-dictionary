@@ -1,0 +1,12 @@
+[
+  {
+    "value": "0",
+    "display_name": "Never or Former Smoker",
+    "description": ""
+  },
+  {
+    "value": "1",
+    "display_name": "Current Smoker",
+    "description": ""
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "id": "v2_bblock",
+  "display_name": "Whether the patient is using Beta-Blocker drugs at Visit 2 (3 month follow-up)",
+  "description": "",
+  "type": "choices",
+  "domain": "yes_no"
+}

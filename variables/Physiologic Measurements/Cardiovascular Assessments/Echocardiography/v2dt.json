@@ -1,0 +1,7 @@
+{
+  "id": "v2dt",
+  "display_name": "Deceleration time at Visit 2 (3-month follow-up)",
+  "description": "",
+  "type": "numeric",
+  "units": "milliseconds (ms)"
+}

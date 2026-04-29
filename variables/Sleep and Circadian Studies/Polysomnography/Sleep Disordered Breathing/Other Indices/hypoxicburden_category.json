@@ -1,0 +1,7 @@
+{
+  "id": "hypoxicburden_category",
+  "display_name": "Category of Hypoxic Burden",
+  "description": "",
+  "type": "choices",
+  "domain": "endo_cat"
+}

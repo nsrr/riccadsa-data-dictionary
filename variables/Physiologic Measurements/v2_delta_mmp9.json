@@ -1,0 +1,7 @@
+{
+  "id": "v2_delta_mmp9",
+  "display_name": "Change in MMP9 at Visit 2 compared to Visit 1",
+  "description": "",
+  "type": "numeric",
+  "units": "picograms per milliliter (pg/mL)"
+}

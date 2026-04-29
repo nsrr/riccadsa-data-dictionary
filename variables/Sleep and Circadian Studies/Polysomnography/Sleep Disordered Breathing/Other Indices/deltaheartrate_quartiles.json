@@ -1,0 +1,7 @@
+{
+  "id": "deltaheartrate_quartiles",
+  "display_name": "Quartile of Delta Heart Rate",
+  "description": "",
+  "type": "choices",
+  "domain": "quartiles"
+}

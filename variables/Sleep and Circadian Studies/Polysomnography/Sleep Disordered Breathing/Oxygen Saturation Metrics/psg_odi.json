@@ -1,0 +1,10 @@
+{
+  "id": "psg_odi",
+  "display_name": "Oxygen Desaturation Index (4 %) from type II polysomnography",
+  "description": "",
+  "type": "numeric",
+  "units": "number of events per hour",
+  "labels": [
+    "odi_dsge4_f1t2"
+  ]
+}

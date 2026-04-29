@@ -1,0 +1,7 @@
+{
+  "id": "v2_sbp_rest",
+  "display_name": "Resting systolic blood pressure at Visit 2 (3-month follow-up)",
+  "description": "",
+  "type": "numeric",
+  "units": "millimeters of mercury (mmHg)"
+}

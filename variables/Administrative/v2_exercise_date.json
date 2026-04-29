@@ -1,0 +1,6 @@
+{
+  "id": "v2_exercise_date",
+  "display_name": "Date of maximal exercise test at Visit 2",
+  "description": "",
+  "type": "date"
+}

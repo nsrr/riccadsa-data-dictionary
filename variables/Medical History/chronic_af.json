@@ -1,0 +1,7 @@
+{
+  "id": "chronic_af",
+  "display_name": "Chronic atrial fibrilation",
+  "description": "",
+  "type": "choices",
+  "domain": "yes_no"
+}

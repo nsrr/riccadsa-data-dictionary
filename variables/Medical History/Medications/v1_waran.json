@@ -1,0 +1,7 @@
+{
+  "id": "v1_waran",
+  "display_name": "Whether the patient is using Waran at baseline",
+  "description": "",
+  "type": "choices",
+  "domain": "yes_no"
+}

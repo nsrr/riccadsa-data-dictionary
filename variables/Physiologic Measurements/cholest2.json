@@ -1,0 +1,7 @@
+{
+  "id": "cholest2",
+  "display_name": "Total Cholesterol Visit 2 (3 month follow-up)",
+  "description": "",
+  "type": "numeric",
+  "units": "millimoles per liter (mmol/L)"
+}

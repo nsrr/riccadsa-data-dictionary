@@ -1,0 +1,7 @@
+{
+  "id": "vactive_category",
+  "display_name": "Category of Vactive",
+  "description": "",
+  "type": "choices",
+  "domain": "endo_cat"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "group",
+  "display_name": "Study groups based on SLEEPY status and OSA status",
+  "description": "",
+  "type": "choices",
+  "domain": "group"
+}

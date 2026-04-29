@@ -1,0 +1,7 @@
+{
+  "id": "v2lvds",
+  "display_name": "Left ventricular dimension at end-systole (LVDS) at Visit 2 (3-month follow-up)",
+  "description": "",
+  "type": "numeric",
+  "units": "millimeters (mm)"
+}

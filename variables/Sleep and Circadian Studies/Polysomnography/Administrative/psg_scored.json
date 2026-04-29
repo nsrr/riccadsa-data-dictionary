@@ -1,0 +1,7 @@
+{
+  "id": "psg_scored",
+  "display_name": "Indicator of whether PSG was scored",
+  "description": "",
+  "type": "choices",
+  "domain": "yes_no"
+}

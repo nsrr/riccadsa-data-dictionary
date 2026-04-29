@@ -1,0 +1,7 @@
+{
+  "id": "v1_caant",
+  "display_name": "Whether the patient is using Calcium channel antagonists at baseline",
+  "description": "",
+  "type": "choices",
+  "domain": "yes_no"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "smoke",
+  "display_name": "Smoking Status at baseline",
+  "description": "",
+  "type": "choices",
+  "domain": "smoke_status",
+  "labels": [
+    "smoking"
+  ]
+}

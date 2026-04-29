@@ -1,0 +1,7 @@
+{
+  "id": "v3_exercise_time",
+  "display_name": "Exercise time during maximal exercise test at Visit 3 (1-year follow-up)",
+  "description": "",
+  "type": "numeric",
+  "units": "minutes (min)"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "hb_available",
+  "display_name": "Hypoxic Burden metric availible ",
+  "description": "",
+  "type": "choices",
+  "domain": "yes_no"
+}

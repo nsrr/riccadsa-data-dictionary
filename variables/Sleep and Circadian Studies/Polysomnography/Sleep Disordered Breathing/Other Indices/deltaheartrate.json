@@ -1,0 +1,6 @@
+{
+  "id": "deltaheartrate",
+  "display_name": "Delta Heart Rate",
+  "description": "Change in heart rate due to respiratory events. Calculated from pulse waveform obtained via electrocardiogram.",
+  "type": "numeric"
+}

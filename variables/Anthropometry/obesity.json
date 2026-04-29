@@ -1,0 +1,7 @@
+{
+  "id": "obesity",
+  "display_name": "Whether a patient is classified as obese (BMI>=30) or not",
+  "description": "",
+  "type": "choices",
+  "domain": "yes_no"
+}

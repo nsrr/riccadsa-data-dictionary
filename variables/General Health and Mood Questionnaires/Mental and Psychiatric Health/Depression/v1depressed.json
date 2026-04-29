@@ -1,0 +1,7 @@
+{
+  "id": "v1depressed",
+  "display_name": "Indicator of depression (DEPRSCORE >= 50) at Visit 1 (baseline)",
+  "description": "",
+  "type": "choices",
+  "domain": "yes_no"
+}

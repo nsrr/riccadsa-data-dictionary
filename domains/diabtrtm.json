@@ -1,0 +1,27 @@
+[
+  {
+    "value": "0",
+    "display_name": "No Treatment",
+    "description": ""
+  },
+  {
+    "value": "1",
+    "display_name": "Diet Only",
+    "description": ""
+  },
+  {
+    "value": "2",
+    "display_name": "Tablet ",
+    "description": ""
+  },
+  {
+    "value": "3",
+    "display_name": "Insulin",
+    "description": ""
+  },
+  {
+    "value": "4",
+    "display_name": "Tablet and Insulin ",
+    "description": ""
+  }
+]

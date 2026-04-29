@@ -1,0 +1,7 @@
+{
+  "id": "vcomp",
+  "display_name": "Upper Airway Neuromuscular Compensation",
+  "description": "Equal to Vactive minus Vpassive. Reflects the increase in airflow due to activation of the pharyngeal dilator muscles.",
+  "type": "numeric",
+  "units": "percent (%)"
+}

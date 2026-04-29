@@ -1,0 +1,7 @@
+{
+  "id": "composite01",
+  "display_name": "Composite endpoint 1 - Has any of the following: new revascularization, acute myocardinal infarction, stroke and cardiovascular mortality",
+  "description": "",
+  "type": "choices",
+  "domain": "yes_no"
+}

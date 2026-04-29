@@ -1,0 +1,7 @@
+{
+  "id": "hosp_af_cardiac_failure",
+  "display_name": "Hospitalization due to atrial fibrilation or cardiac failure",
+  "description": "",
+  "type": "choices",
+  "domain": "yes_no"
+}

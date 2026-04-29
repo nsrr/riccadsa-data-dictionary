@@ -1,0 +1,22 @@
+[
+  {
+    "value": "1",
+    "display_name": "New Revascularization",
+    "description": ""
+  },
+  {
+    "value": "2",
+    "display_name": "Myocardial infarction",
+    "description": ""
+  },
+  {
+    "value": "3",
+    "display_name": "Stroke",
+    "description": ""
+  },
+  {
+    "value": "4",
+    "display_name": "Cardiovascular death",
+    "description": ""
+  }
+]

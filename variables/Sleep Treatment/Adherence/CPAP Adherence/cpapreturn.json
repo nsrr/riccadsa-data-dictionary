@@ -1,0 +1,7 @@
+{
+  "id": "cpapreturn",
+  "display_name": "Whether a patient returned CPAP or not",
+  "description": "",
+  "type": "choices",
+  "domain": "yes_no"
+}

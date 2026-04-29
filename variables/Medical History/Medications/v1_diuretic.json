@@ -1,0 +1,7 @@
+{
+  "id": "v1_diuretic",
+  "display_name": "Whether the patient is using diuretic drugs at baseline",
+  "description": "",
+  "type": "choices",
+  "domain": "yes_no"
+}

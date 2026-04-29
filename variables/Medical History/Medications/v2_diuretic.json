@@ -1,0 +1,7 @@
+{
+  "id": "v2_diuretic",
+  "display_name": "Whether the patient is using diuretic drugs at Visit 2 (3 month follow-up)",
+  "description": "",
+  "type": "choices",
+  "domain": "yes_no"
+}

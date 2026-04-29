@@ -1,0 +1,6 @@
+{
+  "id": "log_hb",
+  "display_name": "log-transformed Hypoxic Burden",
+  "description": "",
+  "type": "numeric"
+}

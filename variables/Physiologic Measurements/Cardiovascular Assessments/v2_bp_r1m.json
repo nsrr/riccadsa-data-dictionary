@@ -1,0 +1,7 @@
+{
+  "id": "v2_bp_r1m",
+  "display_name": "Blood pressure at 1 minute post-exercise at Visit 2 (3-month follow-up)",
+  "description": "",
+  "type": "numeric",
+  "units": "millimeters of mercury (mmHg)"
+}

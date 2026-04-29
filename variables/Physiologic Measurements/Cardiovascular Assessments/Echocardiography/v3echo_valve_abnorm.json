@@ -1,0 +1,7 @@
+{
+  "id": "v3echo_valve_abnorm",
+  "display_name": "Abnormal Valve from Echocardiogram at Visit 3 (1-year follow-up)",
+  "description": "",
+  "type": "choices",
+  "domain": "yes_no"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "v2evf",
+  "display_name": "Ejection Fraction at Visit 2 (3 month follow-up)",
+  "description": "",
+  "type": "numeric",
+  "units": "fraction (L/L)"
+}

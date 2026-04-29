@@ -1,0 +1,7 @@
+{
+  "id": "cpapreturnbefmort",
+  "display_name": "Whether a patient returned CPAP  before mortality or not",
+  "description": "",
+  "type": "choices",
+  "domain": "yes_no"
+}

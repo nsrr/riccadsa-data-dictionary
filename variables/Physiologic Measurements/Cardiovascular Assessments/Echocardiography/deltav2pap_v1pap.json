@@ -1,0 +1,7 @@
+{
+  "id": "deltav2pap_v1pap",
+  "display_name": "Change in Pulmonary arterial pressureÃÂ (PAP) between Visit 1 and Visit 2",
+  "description": "",
+  "type": "numeric",
+  "units": "millimeters of mercury (mmHg)"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "v1cholest",
+  "display_name": "Total Cholesterol Visit 1 (baseline)",
+  "description": "",
+  "type": "numeric",
+  "units": "millimoles per liter (mmol/L)"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "fbypass",
+  "display_name": "Previous Bypass",
+  "description": "",
+  "type": "choices",
+  "domain": "yes_no"
+}

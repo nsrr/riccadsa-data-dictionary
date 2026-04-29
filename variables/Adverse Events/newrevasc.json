@@ -1,0 +1,7 @@
+{
+  "id": "newrevasc",
+  "display_name": "New Revascularization",
+  "description": "",
+  "type": "choices",
+  "domain": "yes_no"
+}

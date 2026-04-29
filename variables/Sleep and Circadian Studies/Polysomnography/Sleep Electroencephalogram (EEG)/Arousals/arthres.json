@@ -1,0 +1,7 @@
+{
+  "id": "arthres",
+  "display_name": "Arousal threshold ",
+  "description": "The level of ventilatory drive that causes arousal from sleep, in percentage of eupneic levels. For analysis, values are generally clipped to be a minimum of 100%",
+  "type": "numeric",
+  "units": "percent (%)"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "pci_cabg",
+  "display_name": "The type of revascularization intervention (PCI or Coronary Artery Bypass Grafting (CABG))",
+  "description": "",
+  "type": "choices",
+  "domain": "pci_cabg"
+}

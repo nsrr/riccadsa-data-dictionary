@@ -1,0 +1,7 @@
+{
+  "id": "atrialfi",
+  "display_name": "Whether a patient has history of atrial fibrillation at baseline",
+  "description": "",
+  "type": "choices",
+  "domain": "yes_no"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "c6m_hum",
+  "display_name": "Indicator for if humidifier is added at 6 months",
+  "description": "",
+  "type": "numeric",
+  "domain": "yes_no"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "vcomp_category",
+  "display_name": "Category of Vcomp",
+  "description": "",
+  "type": "choices",
+  "domain": "endo_cat"
+}

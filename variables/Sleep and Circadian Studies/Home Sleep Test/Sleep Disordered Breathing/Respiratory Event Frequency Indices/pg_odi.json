@@ -1,0 +1,10 @@
+{
+  "id": "pg_odi",
+  "display_name": "Oxygen Desaturation Index (4%) from type III home sleep apnea test",
+  "description": "",
+  "type": "numeric",
+  "units": "number of events per hour",
+  "labels": [
+    "odi_dsge4_f1t3"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "id": "postopaf",
+  "display_name": "Postoperative atrial fibrillation",
+  "description": "",
+  "type": "choices",
+  "domain": "yes_no"
+}

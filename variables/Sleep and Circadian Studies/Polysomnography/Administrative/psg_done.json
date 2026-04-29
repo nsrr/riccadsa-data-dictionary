@@ -1,0 +1,7 @@
+{
+  "id": "psg_done",
+  "display_name": "Indicator of whether overnight polysomnography was conducted",
+  "description": "",
+  "type": "choices",
+  "domain": "yes_no"
+}

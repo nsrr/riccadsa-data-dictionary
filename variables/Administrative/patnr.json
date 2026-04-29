@@ -1,0 +1,6 @@
+{
+  "id": "patnr",
+  "display_name": "Patient Number",
+  "description": "",
+  "type": "identifier"
+}

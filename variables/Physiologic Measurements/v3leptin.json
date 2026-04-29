@@ -1,0 +1,7 @@
+{
+  "id": "v3leptin",
+  "display_name": "Leptin at Visit 3 (1 year follow-up)",
+  "description": "",
+  "type": "numeric",
+  "units": "picograms per milliliter (pg/mL)"
+}

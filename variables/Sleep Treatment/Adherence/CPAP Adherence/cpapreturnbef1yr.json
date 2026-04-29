@@ -1,0 +1,7 @@
+{
+  "id": "cpapreturnbef1yr",
+  "display_name": "Whether a patient returned CPAP before 1 year or not",
+  "description": "",
+  "type": "choices",
+  "domain": "yes_no"
+}

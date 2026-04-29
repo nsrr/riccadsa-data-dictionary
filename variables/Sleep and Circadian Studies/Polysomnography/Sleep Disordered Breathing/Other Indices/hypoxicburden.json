@@ -1,0 +1,6 @@
+{
+  "id": "hypoxicburden",
+  "display_name": "Hypoxic Burden",
+  "description": "Total area under the respiratory event-related desaturation curve.",
+  "type": "numeric"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "v1echo_af",
+  "display_name": "Atrial fibrilation from Echocardiogram at Visit 1 (baseline)",
+  "description": "",
+  "type": "choices",
+  "domain": "yes_no"
+}

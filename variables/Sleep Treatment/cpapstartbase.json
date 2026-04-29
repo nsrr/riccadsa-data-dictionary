@@ -1,0 +1,7 @@
+{
+  "id": "cpapstartbase",
+  "display_name": "Whether a patient started the CPAP treatment at baseline or not",
+  "description": "",
+  "type": "choices",
+  "domain": "yes_no"
+}

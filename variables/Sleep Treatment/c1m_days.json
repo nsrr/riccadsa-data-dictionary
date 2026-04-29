@@ -1,0 +1,7 @@
+{
+  "id": "c1m_days",
+  "display_name": "Total days to 1 month follow-up",
+  "description": "",
+  "type": "numeric",
+  "units": "days"
+}

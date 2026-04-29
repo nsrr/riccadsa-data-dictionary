@@ -1,0 +1,7 @@
+{
+  "id": "psg_supine_ahi",
+  "display_name": "Apnea-Hypopnea Index (Supine):  (All apneas + hypopneas with >50% flow reduction or discernible flow reduction with >=4% desat or arousal) / hour of sleep in supine position from type II polysomnography",
+  "description": "",
+  "type": "numeric",
+  "units": "number of events per hour"
+}

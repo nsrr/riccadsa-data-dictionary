@@ -1,0 +1,7 @@
+{
+  "id": "bmi_3m",
+  "display_name": "BMI at  3-month follow-up",
+  "description": "",
+  "type": "numeric",
+  "units": "kilograms per meter squared (kg/m2)"
+}

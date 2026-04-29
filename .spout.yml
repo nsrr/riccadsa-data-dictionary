@@ -1,3 +1,10 @@
-slug: riccadsa-data-dictionary
+slug: riccadsa
 visit: visit
-charts: []
+charts:
+- chart: gender
+  title: gender
+webservers:
+  - name: production
+    url: https://sleepdata.org
+  - name: staging
+    url: https://zhsleep25.mgb.org

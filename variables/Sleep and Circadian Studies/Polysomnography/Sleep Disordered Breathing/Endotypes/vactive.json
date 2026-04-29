@@ -1,0 +1,7 @@
+{
+  "id": "vactive",
+  "display_name": "Active collapsibility",
+  "description": "The level of ventilation at elevated ventilatory drive, i.e. collapsibility under active conditions.  Low values indicate greater active collapsibility",
+  "type": "numeric",
+  "units": "percent (%)"
+}

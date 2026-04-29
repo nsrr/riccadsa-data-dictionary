@@ -1,0 +1,11 @@
+{
+  "id": "sleepy",
+  "display_name": "Whether a patient is classified as sleepy (ESS>=10) or not based on ESS at baseline",
+  "description": "",
+  "type": "choices",
+  "domain": "yes_no",
+  "labels": [
+    "epworth",
+    "subjective_sleepiness"
+  ]
+}

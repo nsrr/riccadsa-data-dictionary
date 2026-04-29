@@ -1,0 +1,7 @@
+{
+  "id": "incident_stroke",
+  "display_name": "Incident Stroke",
+  "description": "",
+  "type": "choices",
+  "domain": "yes_no"
+}

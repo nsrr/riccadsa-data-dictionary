@@ -1,0 +1,7 @@
+{
+  "id": "v2echo_pacemaker",
+  "display_name": "Pacemaker from Echocardiogram at Visit 2 (3-month follow-up)",
+  "description": "",
+  "type": "choices",
+  "domain": "yes_no"
+}

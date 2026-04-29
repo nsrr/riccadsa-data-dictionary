@@ -1,0 +1,7 @@
+{
+  "id": "weight_1yr",
+  "display_name": "Weight (kg) at 1 Year",
+  "description": "",
+  "type": "numeric",
+  "units": "kilograms (kg)"
+}

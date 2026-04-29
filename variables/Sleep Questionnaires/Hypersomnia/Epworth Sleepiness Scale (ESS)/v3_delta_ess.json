@@ -1,0 +1,6 @@
+{
+  "id": "v3_delta_ess",
+  "display_name": "Number of Days between CPAP start and returned",
+  "description": "",
+  "type": "numeric"
+}

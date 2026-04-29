@@ -1,0 +1,17 @@
+[
+  {
+    "value": "1",
+    "display_name": "0 hours",
+    "description": ""
+  },
+  {
+    "value": "2",
+    "display_name": ">0, <4 hours",
+    "description": ""
+  },
+  {
+    "value": "3",
+    "display_name": ">= 4 hours",
+    "description": ""
+  }
+]

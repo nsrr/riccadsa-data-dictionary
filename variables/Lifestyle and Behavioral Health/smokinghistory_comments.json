@@ -1,0 +1,9 @@
+{
+  "id": "smokinghistory_comments",
+  "display_name": "Additional comments about smoking history",
+  "description": "",
+  "type": "text",
+  "labels": [
+    "smoking"
+  ]
+}

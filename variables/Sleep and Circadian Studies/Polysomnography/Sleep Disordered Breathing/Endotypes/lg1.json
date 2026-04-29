@@ -1,0 +1,6 @@
+{
+  "id": "lg1",
+  "display_name": "Loop gain calculated at frequency of 1 cycle/minute",
+  "description": "Calculated as the magnitude of the ventilatory drive response to ventilatory disturbance occuring at 1 cycle/min.",
+  "type": "numeric"
+}

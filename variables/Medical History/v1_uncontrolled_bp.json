@@ -1,0 +1,7 @@
+{
+  "id": "v1_uncontrolled_bp",
+  "display_name": "Bloop pressure uncontrolled at Visit 1 (baseline)",
+  "description": "",
+  "type": "choices",
+  "domain": "yes_no"
+}

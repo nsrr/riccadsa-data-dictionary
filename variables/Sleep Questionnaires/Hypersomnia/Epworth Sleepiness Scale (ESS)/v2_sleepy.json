@@ -1,0 +1,7 @@
+{
+  "id": "v2_sleepy",
+  "display_name": "Whether a patient is classified as sleepy (ESS>=10) or not, based on ESS at Visit 2",
+  "description": "",
+  "type": "choices",
+  "domain": "yes_no"
+}

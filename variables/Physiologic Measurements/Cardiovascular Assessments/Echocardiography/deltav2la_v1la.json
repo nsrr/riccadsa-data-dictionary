@@ -1,0 +1,7 @@
+{
+  "id": "deltav2la_v1la",
+  "display_name": "Change in left atrial diameter between Visit 1 and Visit 2",
+  "description": "",
+  "type": "numeric",
+  "units": "millimeters (mm)"
+}

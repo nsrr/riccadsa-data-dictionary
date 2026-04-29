@@ -1,0 +1,10 @@
+{
+  "id": "psg_rem_percent",
+  "display_name": "Percentage of sleep time in REM sleep from type II polysomnography",
+  "description": "Sleep duration is the interval between sleep onset time and lights on/out-bed time while asleep, conventionally called total sleep time.",
+  "type": "numeric",
+  "units": "percent (%)",
+  "labels": [
+    "pctdursp_sr_f1t2"
+  ]
+}

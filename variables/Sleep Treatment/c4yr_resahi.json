@@ -1,0 +1,7 @@
+{
+  "id": "c4yr_resahi",
+  "display_name": "Residual AHI  at 4-year follow-up",
+  "description": "",
+  "type": "numeric",
+  "units": "number of events per hour"
+}

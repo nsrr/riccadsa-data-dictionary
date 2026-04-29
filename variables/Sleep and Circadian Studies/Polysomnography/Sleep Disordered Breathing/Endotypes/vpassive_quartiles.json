@@ -1,0 +1,7 @@
+{
+  "id": "vpassive_quartiles",
+  "display_name": "Quartile of Vpassive",
+  "description": "",
+  "type": "choices",
+  "domain": "quartiles"
+}
