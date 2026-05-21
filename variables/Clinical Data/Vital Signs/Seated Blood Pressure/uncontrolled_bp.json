@@ -1,0 +1,7 @@
+{
+  "id": "uncontrolled_bp",
+  "display_name": "Uncontrolled blood pressure",
+  "description": "",
+  "type": "choices",
+  "domain": "yes_no"
+}

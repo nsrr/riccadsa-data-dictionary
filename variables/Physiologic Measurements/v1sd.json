@@ -1,7 +1,0 @@
-{
-  "id": "v1sd",
-  "display_name": "Binary Indicator of left ventricular ejection fraction over 50 at Visit 1 (baseline)",
-  "description": "",
-  "type": "choices",
-  "domain": "lvef50"
-}

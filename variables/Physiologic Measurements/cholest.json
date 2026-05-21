@@ -1,0 +1,7 @@
+{
+  "id": "cholest",
+  "display_name": "Total Cholesterol",
+  "description": "",
+  "type": "numeric",
+  "units": "millimoles per liter (mmol/L)"
+}

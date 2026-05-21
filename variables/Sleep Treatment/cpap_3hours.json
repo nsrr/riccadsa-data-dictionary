@@ -1,0 +1,7 @@
+{
+  "id": "cpap_3hours",
+  "display_name": "Grouping participants based on CPAP usage. Cut-off is 3 hours usage.",
+  "description": "",
+  "type": "choices",
+  "domain": "cpap_usage"
+}

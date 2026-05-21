@@ -1,0 +1,7 @@
+{
+  "id": "ivs",
+  "display_name": "Interventricular Septum (IVS) thickness",
+  "description": "",
+  "type": "numeric",
+  "units": "millimeters (mm)"
+}

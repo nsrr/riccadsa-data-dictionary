@@ -1,0 +1,7 @@
+{
+  "id": "hrr_4m",
+  "display_name": "Heart rate recovery at 4 minutes post-exercise",
+  "description": "",
+  "type": "numeric",
+  "units": "beats per minute (bpm)"
+}

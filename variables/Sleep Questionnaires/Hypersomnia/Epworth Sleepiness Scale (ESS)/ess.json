@@ -1,6 +1,6 @@
 {
   "id": "ess",
-  "display_name": "Epworth Sleepiness Scale Total Score at baseline visit",
+  "display_name": "Epworth Sleepiness Scale Total Score",
   "description": "",
   "type": "numeric",
   "labels": [

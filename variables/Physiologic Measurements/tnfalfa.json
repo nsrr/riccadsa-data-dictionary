@@ -1,0 +1,7 @@
+{
+  "id": "tnfalfa",
+  "display_name": "Tumor Necrosis Factor-alpha",
+  "description": "",
+  "type": "numeric",
+  "units": "picograms per milliliter (pg/mL)"
+}

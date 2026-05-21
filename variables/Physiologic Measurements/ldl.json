@@ -1,0 +1,7 @@
+{
+  "id": "ldl",
+  "display_name": "Low Density Lipoprotein",
+  "description": "",
+  "type": "numeric",
+  "units": "millimoles per liter (mmol/L)"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "vegf",
+  "display_name": "Vascular endothelial growth factor",
+  "description": "",
+  "type": "numeric",
+  "units": "nanograms per milliliter (ng/mL)"
+}

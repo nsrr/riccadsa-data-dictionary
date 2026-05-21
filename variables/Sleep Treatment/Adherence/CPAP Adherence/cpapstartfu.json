@@ -1,7 +1,0 @@
-{
-  "id": "cpapstartfu",
-  "display_name": "Whether a patient started the CPAP treatment at follow-up or not",
-  "description": "",
-  "type": "choices",
-  "domain": "yes_no"
-}

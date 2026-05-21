@@ -1,7 +1,0 @@
-{
-  "id": "v2_recovery_time_total",
-  "display_name": "Total recovery time during maximal exercise test at Visit 2 (3-month follow-up)",
-  "description": "",
-  "type": "numeric",
-  "units": "minutes (min)"
-}

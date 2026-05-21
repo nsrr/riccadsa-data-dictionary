@@ -1,0 +1,7 @@
+{
+  "id": "emincreased",
+  "display_name": "Increased Early diastolic mitral annular velocity at follow-up visit compared to baseline",
+  "description": "",
+  "type": "choices",
+  "domain": "yes_no"
+}

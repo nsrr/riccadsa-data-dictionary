@@ -1,0 +1,7 @@
+{
+  "id": "delta_bnp",
+  "display_name": "Change in B-type natriuretic peptide level ",
+  "description": "",
+  "type": "numeric",
+  "units": "picograms per milliliter (pg/mL)"
+}

@@ -1,7 +1,0 @@
-{
-  "id": "v1echo",
-  "display_name": "Transthoracic Echocardiogram done at Visit 1 (baseline)",
-  "description": "",
-  "type": "choices",
-  "domain": "yes_no"
-}

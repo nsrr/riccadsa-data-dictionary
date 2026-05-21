@@ -1,0 +1,7 @@
+{
+  "id": "monthsoncpap",
+  "display_name": "Months between CPAP Start and returned",
+  "description": "",
+  "type": "numeric",
+  "units": "months"
+}

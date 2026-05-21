@@ -1,0 +1,7 @@
+{
+  "id": "plavix",
+  "display_name": "Whether the patient is using Plavix",
+  "description": "",
+  "type": "choices",
+  "domain": "yes_no"
+}

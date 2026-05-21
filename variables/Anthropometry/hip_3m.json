@@ -1,7 +1,0 @@
-{
-  "id": "hip_3m",
-  "display_name": "Hip measurement at 3-month follow-up",
-  "description": "",
-  "type": "numeric",
-  "units": "centimeters (cm)"
-}

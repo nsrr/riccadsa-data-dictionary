@@ -1,0 +1,7 @@
+{
+  "id": "sbp_rest",
+  "display_name": "Resting systolic blood pressure",
+  "description": "",
+  "type": "numeric",
+  "units": "millimeters of mercury (mmHg)"
+}

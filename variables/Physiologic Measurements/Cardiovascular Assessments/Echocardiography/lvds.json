@@ -1,0 +1,7 @@
+{
+  "id": "lvds",
+  "display_name": "Left ventricular dimension at end-systole",
+  "description": "",
+  "type": "numeric",
+  "units": "millimeters (mm)"
+}

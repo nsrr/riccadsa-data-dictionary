@@ -1,0 +1,7 @@
+{
+  "id": "hs_crp",
+  "display_name": "High Sensitivity C-Reactive Protein",
+  "description": "",
+  "type": "numeric",
+  "units": "milligrams per liter (mg/L)"
+}

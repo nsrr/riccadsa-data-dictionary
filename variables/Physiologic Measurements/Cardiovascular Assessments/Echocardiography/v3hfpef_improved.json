@@ -1,7 +1,0 @@
-{
-  "id": "v3hfpef_improved",
-  "display_name": "Indicator of improved composite score of HFpEF-related abnormalities at Visit 3 compared to Visit 1",
-  "description": "",
-  "type": "choices",
-  "domain": "yes_no"
-}

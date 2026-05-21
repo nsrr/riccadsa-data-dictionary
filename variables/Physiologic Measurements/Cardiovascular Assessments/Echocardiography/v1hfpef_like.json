@@ -1,7 +1,0 @@
-{
-  "id": "v1hfpef_like",
-  "display_name": "Binary indicator of having at least 2 of the 5 HFpEF-related abnormalities at Visit 1",
-  "description": "",
-  "type": "choices",
-  "domain": "yes_no"
-}

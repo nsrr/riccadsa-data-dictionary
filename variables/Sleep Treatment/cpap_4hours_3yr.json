@@ -1,7 +1,0 @@
-{
-  "id": "cpap_4hours_3yr",
-  "display_name": "Grouping participants based on CPAP usage measured at 3-year follow-up. Cut-off is 4 hours usage.",
-  "description": "",
-  "type": "choices",
-  "domain": "cpap_usage"
-}

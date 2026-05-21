@@ -1,7 +1,0 @@
-{
-  "id": "v3_chronotropic_incompetence",
-  "display_name": "Chronotropic incompetence at Visit 3 (1-year follow-up)",
-  "description": "Chonotropic response =<0.8 is considered ",
-  "type": "choices",
-  "domain": "yes_no"
-}

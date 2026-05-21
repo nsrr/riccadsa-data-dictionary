@@ -1,8 +1,0 @@
-{
-  "id": "v1lvm",
-  "display_name": "Left Ventricular Mass (LVM) at Visit 1 (baseline)",
-  "description": "",
-  "type": "numeric",
-  "units": "grams",
-  "calculation": "0.8 * (1.04 * (V1IVSd + V1LVDd + V1LVPWd) ** 3) - V1LVDd ** 3) / 1000 + 0.6"
-}

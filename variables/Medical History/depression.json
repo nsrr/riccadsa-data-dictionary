@@ -1,6 +1,6 @@
 {
   "id": "depression",
-  "display_name": "Whether the patient has diagnosied depression at baseline",
+  "display_name": "Whether the patient has diagnosied depression",
   "description": "",
   "type": "choices",
   "domain": "yes_no"

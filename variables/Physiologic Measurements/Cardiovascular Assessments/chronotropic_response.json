@@ -1,0 +1,7 @@
+{
+  "id": "chronotropic_response",
+  "display_name": "Chronotropic response during maximal exercise test",
+  "description": "",
+  "type": "numeric",
+  "calculation": "(V2_MAX_HR - V2_HR_REST) / (V2_AGE_ADJ_MAX_ACHIEVABLE - V2_HR_REST)"
+}

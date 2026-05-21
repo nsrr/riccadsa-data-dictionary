@@ -1,0 +1,7 @@
+{
+  "id": "leptin",
+  "display_name": "Leptin",
+  "description": "",
+  "type": "numeric",
+  "units": "picograms per milliliter (pg/mL)"
+}

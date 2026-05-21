@@ -1,0 +1,7 @@
+{
+  "id": "la_dilated",
+  "display_name": "Dilated left atrial diameter",
+  "description": "Left atrial diameter > 40 for men or >39 for women is considered dilated",
+  "type": "choices",
+  "domain": "yes_no"
+}

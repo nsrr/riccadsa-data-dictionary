@@ -1,0 +1,7 @@
+{
+  "id": "echo",
+  "display_name": "Transthoracic Echocardiogram done",
+  "description": "",
+  "type": "choices",
+  "domain": "yes_no"
+}

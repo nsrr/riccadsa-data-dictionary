@@ -1,0 +1,7 @@
+{
+  "id": "daysto_screening",
+  "display_name": "Days between date of revascularization intervention and date of screening",
+  "description": "",
+  "type": "numeric",
+  "units": "days"
+}

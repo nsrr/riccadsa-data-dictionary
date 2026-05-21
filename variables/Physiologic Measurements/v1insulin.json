@@ -1,7 +1,0 @@
-{
-  "id": "v1insulin",
-  "display_name": "Insulin at Visit 1 (baseline)",
-  "description": "",
-  "type": "numeric",
-  "units": "picograms per milliliter (pg/mL)"
-}

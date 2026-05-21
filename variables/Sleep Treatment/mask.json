@@ -1,0 +1,7 @@
+{
+  "id": "mask",
+  "display_name": "choices",
+  "description": "",
+  "type": "choices",
+  "domain": "mask_type"
+}

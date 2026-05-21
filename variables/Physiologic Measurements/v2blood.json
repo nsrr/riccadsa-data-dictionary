@@ -1,7 +1,0 @@
-{
-  "id": "v2blood",
-  "display_name": "Blood samples collected at Visit 2 (3 month follow-up)",
-  "description": "",
-  "type": "choices",
-  "domain": "yes_no"
-}

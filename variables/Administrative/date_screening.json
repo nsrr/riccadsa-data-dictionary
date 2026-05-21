@@ -1,0 +1,6 @@
+{
+  "id": "date_screening",
+  "display_name": "Date of screening (date of Embletta polygraphy recording)",
+  "description": "",
+  "type": "date"
+}

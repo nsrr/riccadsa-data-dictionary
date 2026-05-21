@@ -1,7 +1,0 @@
-{
-  "id": "v3_caant",
-  "display_name": "Whether the patient is using Calcium channel antagonists at Visit 3 (1 year follow-up)",
-  "description": "",
-  "type": "choices",
-  "domain": "yes_no"
-}

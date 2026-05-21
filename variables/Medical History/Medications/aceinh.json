@@ -1,0 +1,7 @@
+{
+  "id": "aceinh",
+  "display_name": "Whether the patient is using angiotensin converting enzyme inhibitors ",
+  "description": "",
+  "type": "choices",
+  "domain": "yes_no"
+}

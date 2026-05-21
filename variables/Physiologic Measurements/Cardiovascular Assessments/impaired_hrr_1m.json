@@ -1,0 +1,7 @@
+{
+  "id": "impaired_hrr_1m",
+  "display_name": "Impared heart rate recovery at 1 minute post-exercise",
+  "description": "HRR =< 12 bpm is considered impared",
+  "type": "choices",
+  "domain": "yes_no"
+}

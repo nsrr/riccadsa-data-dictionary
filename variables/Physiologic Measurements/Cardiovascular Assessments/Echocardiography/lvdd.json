@@ -1,0 +1,7 @@
+{
+  "id": "lvdd",
+  "display_name": "Left ventricular dimension at end-diastole",
+  "description": "",
+  "type": "numeric",
+  "units": "millimeters (mm)"
+}

@@ -1,7 +1,0 @@
-{
-  "id": "c6yr_mask",
-  "display_name": "Median leak at 6-year follow-up",
-  "description": "",
-  "type": "choices",
-  "domain": "mask_type"
-}

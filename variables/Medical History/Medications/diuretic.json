@@ -1,0 +1,7 @@
+{
+  "id": "diuretic",
+  "display_name": "Whether the patient is using diuretic drugs",
+  "description": "",
+  "type": "choices",
+  "domain": "yes_no"
+}

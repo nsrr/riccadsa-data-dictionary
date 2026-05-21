@@ -1,0 +1,7 @@
+{
+  "id": "pmaxtv",
+  "display_name": "Tricuspid Valve Maximum pressure",
+  "description": "",
+  "type": "numeric",
+  "units": "millimeters of mercury (mmHg)"
+}

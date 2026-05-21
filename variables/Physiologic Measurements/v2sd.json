@@ -1,7 +1,0 @@
-{
-  "id": "v2sd",
-  "display_name": "Binary Indicator of left ventricular ejection fraction over 50 at Visit 2 (3 month follow-up)",
-  "description": "",
-  "type": "choices",
-  "domain": "lvef50"
-}

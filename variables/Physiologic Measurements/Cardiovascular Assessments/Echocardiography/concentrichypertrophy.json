@@ -1,0 +1,7 @@
+{
+  "id": "concentrichypertrophy",
+  "display_name": "Concentric Hypertrophy",
+  "description": "",
+  "type": "choices",
+  "domain": "yes_no"
+}

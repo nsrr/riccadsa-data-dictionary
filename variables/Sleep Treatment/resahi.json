@@ -1,0 +1,7 @@
+{
+  "id": "resahi",
+  "display_name": "Residual AHI ",
+  "description": "",
+  "type": "numeric",
+  "units": "number of events per hour"
+}

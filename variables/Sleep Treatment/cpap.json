@@ -1,0 +1,6 @@
+{
+  "id": "cpap",
+  "display_name": "CPAP control date after follow up duration",
+  "description": "",
+  "type": "date"
+}

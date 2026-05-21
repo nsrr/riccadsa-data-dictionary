@@ -1,8 +1,0 @@
-{
-  "id": "days_to_v2",
-  "display_name": "Days between blood sample collection at Visit 2 and Visit 1",
-  "description": "",
-  "type": "numeric",
-  "units": "days",
-  "calculation": "V2DATBLD-V1DATBLD)/(60x60x24)"
-}

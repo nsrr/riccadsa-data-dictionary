@@ -1,0 +1,7 @@
+{
+  "id": "improved_hs_crp",
+  "display_name": "Indicator of Improved High Sensitivity C-Reactive Protein ",
+  "description": "",
+  "type": "choices",
+  "domain": "yes_no"
+}

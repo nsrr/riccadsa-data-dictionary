@@ -1,6 +1,6 @@
 {
   "id": "finterv",
-  "display_name": "Whether a patient had former revascularization intervention (PCI and/or Bypass) at baseline",
+  "display_name": "Whether a patient had former revascularization intervention (PCI and/or Bypass) ",
   "description": "",
   "type": "choices",
   "domain": "yes_no"

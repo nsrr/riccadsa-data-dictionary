@@ -1,0 +1,7 @@
+{
+  "id": "exercise_time",
+  "display_name": "Exercise time during maximal exercise test",
+  "description": "",
+  "type": "numeric",
+  "units": "minutes (min)"
+}

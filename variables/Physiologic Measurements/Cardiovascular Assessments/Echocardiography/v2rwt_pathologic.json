@@ -1,7 +1,0 @@
-{
-  "id": "v2rwt_pathologic",
-  "display_name": "Pathologic RWT at Visit 2 (3-month follow-up)",
-  "description": "RWT > 0.43 is considered pathologic, indicates concentric remodeling or hypertrophy",
-  "type": "choices",
-  "domain": "yes_no"
-}

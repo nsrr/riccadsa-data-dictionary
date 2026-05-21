@@ -1,7 +1,0 @@
-{
-  "id": "v3_impaired_hrr_1m",
-  "display_name": "Impared heart rate recovery at 1 minute post-exercise at Visit 3 (1-year follow-up)",
-  "description": "HRR =< 12 bpm is considered impared",
-  "type": "choices",
-  "domain": "yes_no"
-}

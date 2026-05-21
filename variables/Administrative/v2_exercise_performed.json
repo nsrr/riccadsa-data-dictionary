@@ -1,7 +1,0 @@
-{
-  "id": "v2_exercise_performed",
-  "display_name": "Maximal exercise test performed at Visit 2 (3-month follow-up)",
-  "description": "",
-  "type": "choices",
-  "domain": "yes_no"
-}

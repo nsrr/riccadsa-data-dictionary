@@ -1,0 +1,7 @@
+{
+  "id": "eepathologic",
+  "display_name": "Indicator of pathologic E/e' ratio",
+  "description": "E/e' >=15 is considered pathologic ",
+  "type": "choices",
+  "domain": "yes_no"
+}

@@ -1,0 +1,6 @@
+{
+  "id": "delta_lvef",
+  "display_name": "Change in Left Ventricular ejection fraction between baseline and follow-up visit",
+  "description": "",
+  "type": "numeric"
+}

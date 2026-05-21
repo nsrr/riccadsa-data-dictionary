@@ -1,7 +1,0 @@
-{
-  "id": "c1m_resahi",
-  "display_name": "Residual AHI at 1 month follow-up",
-  "description": "",
-  "type": "numeric",
-  "units": "number of events per hour"
-}

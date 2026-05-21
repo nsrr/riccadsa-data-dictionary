@@ -1,0 +1,7 @@
+{
+  "id": "sp_d",
+  "display_name": "Surfactant protein D",
+  "description": "",
+  "type": "numeric",
+  "units": "nanograms per milliliter (ng/mL)"
+}

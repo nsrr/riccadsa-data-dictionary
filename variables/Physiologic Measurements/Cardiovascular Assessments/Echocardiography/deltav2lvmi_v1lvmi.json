@@ -1,7 +1,0 @@
-{
-  "id": "deltav2lvmi_v1lvmi",
-  "display_name": "Change in Left Ventricular Mass Index (LVMI) between Visit 1 and Visit 2",
-  "description": "",
-  "type": "numeric",
-  "units": "grams per meter squared (g/m2)"
-}

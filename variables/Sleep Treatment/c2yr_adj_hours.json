@@ -1,7 +1,0 @@
-{
-  "id": "c2yr_adj_hours",
-  "display_name": "Adjusted CPAP hours at 2 years (CPAP hours/night x Percentage of CPAP days/Follow-up days)",
-  "description": "",
-  "type": "numeric",
-  "units": "hours per night"
-}

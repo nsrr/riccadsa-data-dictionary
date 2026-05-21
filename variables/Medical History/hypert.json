@@ -1,6 +1,6 @@
 {
   "id": "hypert",
-  "display_name": "Whether a patient has hypertension or not at baseline",
+  "display_name": "Whether a patient has hypertension or not",
   "description": "",
   "type": "choices",
   "domain": "yes_no"

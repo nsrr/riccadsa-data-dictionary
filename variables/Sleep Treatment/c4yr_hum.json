@@ -1,7 +1,0 @@
-{
-  "id": "c4yr_hum",
-  "display_name": "Indicator for if humidifier is added at 4-year follow-up",
-  "description": "",
-  "type": "choices",
-  "domain": "yes_no"
-}

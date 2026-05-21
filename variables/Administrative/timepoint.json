@@ -1,0 +1,7 @@
+{
+  "id": "timepoint",
+  "display_name": "RICCADSA study1 visit timepoint",
+  "description": "",
+  "type": "choices",
+  "domain": "timepoint"
+}

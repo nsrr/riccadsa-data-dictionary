@@ -1,7 +1,0 @@
-{
-  "id": "v2_hr_rest",
-  "display_name": "Resting heart rate at Visit 2 (3-month follow-up)",
-  "description": "",
-  "type": "numeric",
-  "units": "percent (%)"
-}

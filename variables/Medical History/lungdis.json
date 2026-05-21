@@ -1,6 +1,6 @@
 {
   "id": "lungdis",
-  "display_name": "Whether a patient has diagnosed lung disease or not at baseline",
+  "display_name": "Whether a patient has diagnosed lung disease or not",
   "description": "",
   "type": "choices",
   "domain": "yes_no"

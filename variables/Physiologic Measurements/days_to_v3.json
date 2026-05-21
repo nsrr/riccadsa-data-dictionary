@@ -1,7 +1,0 @@
-{
-  "id": "days_to_v3",
-  "display_name": "Days between blood sample collection at ? ?",
-  "description": "",
-  "type": "integer",
-  "units": "days"
-}

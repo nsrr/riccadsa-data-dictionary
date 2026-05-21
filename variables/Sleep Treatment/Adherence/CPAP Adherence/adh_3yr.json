@@ -1,7 +1,0 @@
-{
-  "id": "adh_3yr",
-  "display_name": "Patient is adherent (still owning CPAP) at 3-year follow-up",
-  "description": "",
-  "type": "choices",
-  "domain": "yes_no"
-}

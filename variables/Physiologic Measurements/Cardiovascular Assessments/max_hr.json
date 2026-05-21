@@ -1,0 +1,7 @@
+{
+  "id": "max_hr",
+  "display_name": "Peak heart rate during maximal exercise test",
+  "description": "",
+  "type": "numeric",
+  "units": "beats per minute (bpm)"
+}

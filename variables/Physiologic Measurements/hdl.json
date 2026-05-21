@@ -1,0 +1,7 @@
+{
+  "id": "hdl",
+  "display_name": "High Density Lipoprotein",
+  "description": "",
+  "type": "numeric",
+  "units": "millimoles per liter (mmol/L)"
+}

@@ -1,7 +1,0 @@
-{
-  "id": "v1tricuspidinsuff",
-  "display_name": "Tricuspid insufficiency at Visit 1(baseline)",
-  "description": "",
-  "type": "choices",
-  "domain": "yes_no"
-}

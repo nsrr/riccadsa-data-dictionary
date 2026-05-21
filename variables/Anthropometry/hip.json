@@ -1,6 +1,6 @@
 {
   "id": "hip",
-  "display_name": "Hip circumference at Visit 1 (baseline)",
+  "display_name": "Hip circumference",
   "description": "",
   "type": "numeric",
   "units": "centimeters (cm)"

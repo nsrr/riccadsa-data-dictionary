@@ -1,7 +1,0 @@
-{
-  "id": "v2_perc_max_watt",
-  "display_name": "Percent of maximum workload (Watts) achieved at Visit 2 (3-month follow-up)",
-  "description": "",
-  "type": "numeric",
-  "units": "percent (%)"
-}

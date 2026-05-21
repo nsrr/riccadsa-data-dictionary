@@ -1,7 +1,0 @@
-{
-  "id": "cpap_adjhours_3m",
-  "display_name": "Adjusted CPAP hours at 3 months (CPAP hours/night x Percentage of CPAP days/Follow-up days)",
-  "description": "",
-  "type": "numeric",
-  "units": "hours (hr)"
-}

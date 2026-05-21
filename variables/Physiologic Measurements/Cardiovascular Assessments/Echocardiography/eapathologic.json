@@ -1,0 +1,7 @@
+{
+  "id": "eapathologic",
+  "display_name": "Indicator of pathologic E/A ratio ",
+  "description": "",
+  "type": "choices",
+  "domain": "yes_no"
+}

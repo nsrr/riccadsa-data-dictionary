@@ -1,7 +1,0 @@
-{
-  "id": "c1yr_cpapd",
-  "display_name": "Total CPAP use-days from CPAP start date to 1 year follow-up  date",
-  "description": "",
-  "type": "numeric",
-  "units": "days"
-}

@@ -1,6 +1,6 @@
 {
   "id": "currentsmoker",
-  "display_name": "Whether a patient is currently smoking at baseline or not",
+  "display_name": "Whether a patient is currently smoking or not",
   "description": "",
   "type": "choices",
   "domain": "smoke_current",

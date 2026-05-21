@@ -1,0 +1,7 @@
+{
+  "id": "recovery_time_total",
+  "display_name": "Total recovery time during maximal exercise test",
+  "description": "",
+  "type": "numeric",
+  "units": "minutes (min)"
+}

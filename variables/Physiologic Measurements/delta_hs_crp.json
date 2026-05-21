@@ -1,0 +1,7 @@
+{
+  "id": "delta_hs_crp",
+  "display_name": "Change in High Sensitivity C-Reactive Protein at follow-up compared to baseline",
+  "description": "",
+  "type": "numeric",
+  "units": "milligrams per liter (mg/L)"
+}

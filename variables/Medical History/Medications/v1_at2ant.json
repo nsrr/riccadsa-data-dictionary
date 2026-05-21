@@ -1,7 +1,0 @@
-{
-  "id": "v1_at2ant",
-  "display_name": "Whether the patient is using Angiotensin-II-receptor antagonists at baseline",
-  "description": "",
-  "type": "choices",
-  "domain": "yes_no"
-}

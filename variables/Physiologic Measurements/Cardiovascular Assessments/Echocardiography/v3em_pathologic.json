@@ -1,7 +1,0 @@
-{
-  "id": "v3em_pathologic",
-  "display_name": "Pathologic septal e'  velocity at Visit 3 (1-year follow-up)",
-  "description": "Pathologic Em thresholds: < 40 years old - =< 10; 40-59 years old - =< 8; >= 60 years old - =<6) <br> Low Em reflects impared relazation and diastolic dysfunction ",
-  "type": "choices",
-  "domain": "yes_no"
-}

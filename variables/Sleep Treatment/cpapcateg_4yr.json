@@ -1,7 +1,0 @@
-{
-  "id": "cpapcateg_4yr",
-  "display_name": "Categorical CPAP hours per CPAP nights at 4-year follow-up ",
-  "description": "Catgeory based on C4YR_ADJ_HOURS",
-  "type": "choices",
-  "domain": "cpap_categ"
-}

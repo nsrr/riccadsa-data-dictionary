@@ -1,0 +1,7 @@
+{
+  "id": "maskleak",
+  "display_name": "Median leak",
+  "description": "",
+  "type": "numeric",
+  "units": "centimeters of water (cmH2O)"
+}

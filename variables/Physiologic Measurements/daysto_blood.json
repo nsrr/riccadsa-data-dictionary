@@ -1,0 +1,7 @@
+{
+  "id": "daysto_blood",
+  "display_name": "Days between current blood test to previous blood test (or to screening date, for first blood test)",
+  "description": "",
+  "type": "integer",
+  "units": "days"
+}

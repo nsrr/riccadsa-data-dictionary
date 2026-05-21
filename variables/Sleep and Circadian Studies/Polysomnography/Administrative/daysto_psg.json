@@ -1,0 +1,7 @@
+{
+  "id": "daysto_psg",
+  "display_name": "Number of days between Embletta polygraphy recording and PSG recording",
+  "description": "",
+  "type": "numeric",
+  "units": "days"
+}

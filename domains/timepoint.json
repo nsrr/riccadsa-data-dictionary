@@ -1,0 +1,62 @@
+[
+  {
+    "value": "V0_screening",
+    "display_name": "Screening Visit",
+    "description": ""
+  },
+  {
+    "value": "V1_baseline",
+    "display_name": "Visit 1 (baseline)",
+    "description": ""
+  },
+  {
+    "value": "V2_3m",
+    "display_name": "Visit 2 (3 month follow-up)",
+    "description": ""
+  },
+  {
+    "value": "V3_1yr",
+    "display_name": "Visit 3 (1 year follow-up)",
+    "description": ""
+  },
+  {
+    "value": "outcome",
+    "display_name": "Outcome",
+    "description": ""
+  },
+  {
+    "value": "1m",
+    "display_name": "CPAP - 1 month",
+    "description": ""
+  },
+  {
+    "value": "6m",
+    "display_name": "CPAP - 6 months",
+    "description": ""
+  },
+  {
+    "value": "2yr",
+    "display_name": "CPAP - 2 years",
+    "description": ""
+  },
+  {
+    "value": "3yr",
+    "display_name": "CPAP - 3 years",
+    "description": ""
+  },
+  {
+    "value": "4yr",
+    "display_name": "CPAP - 4 years",
+    "description": ""
+  },
+  {
+    "value": "5yr",
+    "display_name": "CPAP - 5 years",
+    "description": ""
+  },
+  {
+    "value": "6yr",
+    "display_name": "CPAP - 6 years",
+    "description": ""
+  }
+]

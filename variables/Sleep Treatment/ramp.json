@@ -1,0 +1,7 @@
+{
+  "id": "ramp",
+  "display_name": "Ramp time",
+  "description": "",
+  "type": "numeric",
+  "units": "minutes (min)"
+}

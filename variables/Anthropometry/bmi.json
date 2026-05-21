@@ -1,6 +1,6 @@
 {
   "id": "bmi",
-  "display_name": "Body Mass Index at Visit 1 (baseline)",
+  "display_name": "Body Mass Index",
   "description": "",
   "type": "numeric",
   "units": "kilograms per meter squared (kg/m2)",

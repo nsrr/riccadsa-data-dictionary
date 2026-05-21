@@ -1,7 +1,0 @@
-{
-  "id": "v2la_pathologic",
-  "display_name": "Pathologic left atrial diameter at Visit 2 (3-month follow-up)",
-  "description": "",
-  "type": "choices",
-  "domain": "yes_no"
-}

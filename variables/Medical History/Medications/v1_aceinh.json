@@ -1,7 +1,0 @@
-{
-  "id": "v1_aceinh",
-  "display_name": "Whether the patient is using Angiotensin Converting Enzyme inhibitors at baseline",
-  "description": "",
-  "type": "choices",
-  "domain": "yes_no"
-}

@@ -1,7 +1,0 @@
-{
-  "id": "c3m_c_median",
-  "display_name": "Median CPAP pressure at 3 month follow-up",
-  "description": "",
-  "type": "numeric",
-  "units": "centimeters of water (cmH2O)"
-}

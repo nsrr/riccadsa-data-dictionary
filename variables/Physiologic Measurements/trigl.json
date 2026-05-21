@@ -1,0 +1,7 @@
+{
+  "id": "trigl",
+  "display_name": "Triglycerides",
+  "description": "",
+  "type": "numeric",
+  "units": "millimoles per liter (mmol/L)"
+}

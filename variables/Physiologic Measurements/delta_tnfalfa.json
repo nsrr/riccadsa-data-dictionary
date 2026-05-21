@@ -1,0 +1,7 @@
+{
+  "id": "delta_tnfalfa",
+  "display_name": "Change in Tumor Necrosis Factor-alpha at follow-up compared to baseline",
+  "description": "",
+  "type": "numeric",
+  "units": "picograms per milliliter (pg/mL)"
+}

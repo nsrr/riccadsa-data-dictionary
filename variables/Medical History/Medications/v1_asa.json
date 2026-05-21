@@ -1,7 +1,0 @@
-{
-  "id": "v1_asa",
-  "display_name": "Whether the patient is using Aspirin at baseline",
-  "description": "",
-  "type": "choices",
-  "domain": "yes_no"
-}

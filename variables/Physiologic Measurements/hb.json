@@ -1,0 +1,7 @@
+{
+  "id": "hb",
+  "display_name": "Hemoglobin",
+  "description": "",
+  "type": "numeric",
+  "units": "grams per liter (g/L)"
+}

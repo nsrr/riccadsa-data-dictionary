@@ -1,0 +1,7 @@
+{
+  "id": "exercise_performed",
+  "display_name": "Maximal exercise test performed",
+  "description": "",
+  "type": "choices",
+  "domain": "yes_no"
+}

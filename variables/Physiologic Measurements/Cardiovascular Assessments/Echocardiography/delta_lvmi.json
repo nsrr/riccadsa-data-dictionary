@@ -1,0 +1,7 @@
+{
+  "id": "delta_lvmi",
+  "display_name": "Change in Left Ventricular Mass Index (LVMI) between baseline and follow-up visit",
+  "description": "",
+  "type": "numeric",
+  "units": "grams per meter squared (g/m2)"
+}

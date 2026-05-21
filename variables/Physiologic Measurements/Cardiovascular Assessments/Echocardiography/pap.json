@@ -1,0 +1,7 @@
+{
+  "id": "pap",
+  "display_name": "Pulmonary arterial pressure(PAP)",
+  "description": "",
+  "type": "numeric",
+  "units": "millimeters of mercury (mmHg)"
+}

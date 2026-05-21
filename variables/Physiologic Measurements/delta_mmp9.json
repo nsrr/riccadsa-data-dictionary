@@ -1,0 +1,7 @@
+{
+  "id": "delta_mmp9",
+  "display_name": "Change in MMP at follow-up compared to baseline",
+  "description": "",
+  "type": "numeric",
+  "units": "picograms per milliliter (pg/mL)"
+}

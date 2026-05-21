@@ -1,0 +1,7 @@
+{
+  "id": "max_bp",
+  "display_name": "Systolic blood pressure at maximum effort",
+  "description": "",
+  "type": "numeric",
+  "units": "millimeters of mercury (mmHg)"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "echo_pacemaker",
+  "display_name": "Pacemaker from Echocardiogram",
+  "description": "",
+  "type": "choices",
+  "domain": "yes_no"
+}

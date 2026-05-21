@@ -1,0 +1,7 @@
+{
+  "id": "resai",
+  "display_name": "Residual AI at time of follow-up",
+  "description": "",
+  "type": "numeric",
+  "units": "number of events per hour"
+}

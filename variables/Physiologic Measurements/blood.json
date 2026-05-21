@@ -1,0 +1,7 @@
+{
+  "id": "blood",
+  "display_name": "Blood samples collected at Visit",
+  "description": "",
+  "type": "choices",
+  "domain": "yes_no"
+}

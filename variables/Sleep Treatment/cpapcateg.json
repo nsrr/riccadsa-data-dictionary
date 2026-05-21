@@ -1,0 +1,7 @@
+{
+  "id": "cpapcateg",
+  "display_name": "Categorical CPAP hours per CPAP nights",
+  "description": "Catgeory based on ADJ_HOURS",
+  "type": "choices",
+  "domain": "cpap_categ"
+}

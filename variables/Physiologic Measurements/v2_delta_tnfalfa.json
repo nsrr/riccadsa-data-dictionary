@@ -1,7 +1,0 @@
-{
-  "id": "v2_delta_tnfalfa",
-  "display_name": "Change in Tumor Necrosis Factor-alpha at Visit 2 compared to Visit 1",
-  "description": "",
-  "type": "numeric",
-  "units": "picograms per milliliter (pg/mL)"
-}

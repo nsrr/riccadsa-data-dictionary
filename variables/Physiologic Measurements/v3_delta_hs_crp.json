@@ -1,7 +1,0 @@
-{
-  "id": "v3_delta_hs_crp",
-  "display_name": "Change in High Sensitivity C-Reactive Protein at Visit 3 compared to Visit 1",
-  "description": "",
-  "type": "numeric",
-  "units": "milligrams per liter (mg/L)"
-}

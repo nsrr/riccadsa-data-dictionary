@@ -1,0 +1,6 @@
+{
+  "id": "firstevent_date",
+  "display_name": "Date of first event in composite endpoint 1",
+  "description": "",
+  "type": "date"
+}

@@ -1,7 +1,0 @@
-{
-  "id": "v3_asa",
-  "display_name": "Whether the patient is using  Aspirin at Visit 3 (1 year follow-up)",
-  "description": "",
-  "type": "choices",
-  "domain": "yes_no"
-}

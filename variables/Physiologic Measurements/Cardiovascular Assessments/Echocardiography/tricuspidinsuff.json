@@ -1,0 +1,7 @@
+{
+  "id": "tricuspidinsuff",
+  "display_name": "Tricuspid insufficiency",
+  "description": "",
+  "type": "choices",
+  "domain": "yes_no"
+}

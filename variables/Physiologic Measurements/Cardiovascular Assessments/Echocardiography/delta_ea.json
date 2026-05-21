@@ -1,0 +1,6 @@
+{
+  "id": "delta_ea",
+  "display_name": "Change in E/A ratio between baseline and follow-up visit",
+  "description": "",
+  "type": "numeric"
+}

@@ -1,7 +1,0 @@
-{
-  "id": "v2_lipid",
-  "display_name": "Whether the patient is using Lipid reducing drug at Visit 2 (3 month follow-up)",
-  "description": "",
-  "type": "choices",
-  "domain": "yes_no"
-}

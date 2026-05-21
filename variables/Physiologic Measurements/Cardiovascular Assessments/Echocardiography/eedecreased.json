@@ -1,0 +1,7 @@
+{
+  "id": "eedecreased",
+  "display_name": "Decreased E/e' Ratio at follow-up visit compared to baseline",
+  "description": "",
+  "type": "choices",
+  "domain": "yes_no"
+}

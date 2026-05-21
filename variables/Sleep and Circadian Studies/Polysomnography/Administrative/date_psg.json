@@ -1,0 +1,6 @@
+{
+  "id": "date_psg",
+  "display_name": "Date of PSG recording",
+  "description": "",
+  "type": "date"
+}

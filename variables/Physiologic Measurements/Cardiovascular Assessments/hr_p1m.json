@@ -1,0 +1,7 @@
+{
+  "id": "hr_p1m",
+  "display_name": "Heart rate at 1 minute Post-Exercise",
+  "description": "",
+  "type": "numeric",
+  "units": "beats per minute (bpm)"
+}

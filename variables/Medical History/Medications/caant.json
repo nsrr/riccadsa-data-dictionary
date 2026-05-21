@@ -1,0 +1,7 @@
+{
+  "id": "caant",
+  "display_name": "Whether the patient is using calcium channel antagonists",
+  "description": "",
+  "type": "choices",
+  "domain": "yes_no"
+}

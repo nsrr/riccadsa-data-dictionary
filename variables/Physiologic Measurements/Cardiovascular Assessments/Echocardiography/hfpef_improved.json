@@ -1,0 +1,7 @@
+{
+  "id": "hfpef_improved",
+  "display_name": "Indicator of improved composite score of HFpEF-related abnormalities at follow-up visit compared to baseline",
+  "description": "",
+  "type": "choices",
+  "domain": "yes_no"
+}

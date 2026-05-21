@@ -1,0 +1,7 @@
+{
+  "id": "hr_rest",
+  "display_name": "Resting heart rate",
+  "description": "",
+  "type": "numeric",
+  "units": "beats per minute (bpm)"
+}

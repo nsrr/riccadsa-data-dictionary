@@ -1,0 +1,7 @@
+{
+  "id": "hum",
+  "display_name": "Indicator for if humidifier is added",
+  "description": "",
+  "type": "choices",
+  "domain": "yes_no"
+}

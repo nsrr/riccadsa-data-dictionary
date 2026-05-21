@@ -1,0 +1,7 @@
+{
+  "id": "tpk",
+  "display_name": "Platelet Count",
+  "description": "",
+  "type": "numeric",
+  "units": "10^9/L"
+}

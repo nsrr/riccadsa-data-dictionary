@@ -1,7 +1,0 @@
-{
-  "id": "adh_1m",
-  "display_name": "Patient is adherent (still owning CPAP) at 1 month",
-  "description": "",
-  "type": "choices",
-  "domain": "yes_no"
-}

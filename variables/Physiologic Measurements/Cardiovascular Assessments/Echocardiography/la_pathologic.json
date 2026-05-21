@@ -1,0 +1,7 @@
+{
+  "id": "la_pathologic",
+  "display_name": "Indicator of pathologic left atrial diameter",
+  "description": "",
+  "type": "choices",
+  "domain": "yes_no"
+}

@@ -1,7 +1,0 @@
-{
-  "id": "c1yr_mask",
-  "display_name": "CPAP Mask Type at 1 year",
-  "description": "",
-  "type": "choices",
-  "domain": "mask_type"
-}

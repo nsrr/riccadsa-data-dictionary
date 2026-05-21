@@ -1,0 +1,7 @@
+{
+  "id": "insulin",
+  "display_name": "Insulin",
+  "description": "",
+  "type": "numeric",
+  "units": "picograms per milliliter (pg/mL)"
+}

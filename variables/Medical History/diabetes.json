@@ -1,6 +1,6 @@
 {
   "id": "diabetes",
-  "display_name": "Whether a patient has diabetes or not at baseline",
+  "display_name": "Whether a patient has diabetes or not",
   "description": "",
   "type": "choices",
   "domain": "yes_no"

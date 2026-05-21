@@ -1,6 +1,6 @@
 {
   "id": "waist",
-  "display_name": "Waist circumference at Visit 1 (baseline)",
+  "display_name": "Waist circumference",
   "description": "",
   "type": "numeric",
   "units": "centimeters (cm)"

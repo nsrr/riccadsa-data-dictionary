@@ -1,0 +1,7 @@
+{
+  "id": "bp_r4m",
+  "display_name": "Blood pressureat 4 minutes post-exercise",
+  "description": "",
+  "type": "numeric",
+  "units": "millimeters of mercury (mmHg)"
+}

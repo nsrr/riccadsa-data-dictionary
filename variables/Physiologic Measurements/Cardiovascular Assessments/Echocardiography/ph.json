@@ -1,0 +1,7 @@
+{
+  "id": "ph",
+  "display_name": "Pulmonary Hypertention",
+  "description": "PAH >= 35 is classified as Pulmonary Hypertension ",
+  "type": "choices",
+  "domain": "yes_no"
+}

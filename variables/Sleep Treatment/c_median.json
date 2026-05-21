@@ -1,0 +1,7 @@
+{
+  "id": "c_median",
+  "display_name": "Median CPAP pressure at time of follow-up",
+  "description": "",
+  "type": "numeric",
+  "units": "centimeters of water (cmH2O)"
+}

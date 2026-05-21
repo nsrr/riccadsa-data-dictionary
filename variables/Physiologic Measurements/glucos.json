@@ -1,0 +1,7 @@
+{
+  "id": "glucos",
+  "display_name": "Blood Glucose",
+  "description": "",
+  "type": "numeric",
+  "units": "millimoles per liter (mmol/L)"
+}

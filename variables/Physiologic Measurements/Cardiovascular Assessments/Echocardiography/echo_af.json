@@ -1,0 +1,7 @@
+{
+  "id": "echo_af",
+  "display_name": "Atrial fibrilation from Echocardiogram",
+  "description": "",
+  "type": "choices",
+  "domain": "yes_no"
+}

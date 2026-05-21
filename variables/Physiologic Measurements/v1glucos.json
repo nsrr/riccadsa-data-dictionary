@@ -1,7 +1,0 @@
-{
-  "id": "v1glucos",
-  "display_name": "Blood Glucose at Visit 1 (baseline)",
-  "description": "",
-  "type": "numeric",
-  "units": "millimoles per liter (mmol/L)"
-}

@@ -1,6 +1,0 @@
-{
-  "id": "v2echo_date",
-  "display_name": "Date of Echocardiogram at Visit 2 (3-month follow-up)",
-  "description": "",
-  "type": "date"
-}

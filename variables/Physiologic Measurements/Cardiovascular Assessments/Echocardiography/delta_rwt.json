@@ -1,0 +1,6 @@
+{
+  "id": "delta_rwt",
+  "display_name": "Change in Relative Wall Thickness (RWT) between baseline and follow-up visit",
+  "description": "",
+  "type": "numeric"
+}

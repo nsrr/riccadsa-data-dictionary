@@ -1,0 +1,6 @@
+{
+  "id": "date_inter",
+  "display_name": "Date of revascularization intervention",
+  "description": "",
+  "type": "date"
+}

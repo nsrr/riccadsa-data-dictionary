@@ -1,0 +1,7 @@
+{
+  "id": "age_adj_max_achievable_effort",
+  "display_name": "Age adjusted maximal achievable effort during maximal exercise test",
+  "description": "",
+  "type": "numeric",
+  "units": "watts (W)"
+}

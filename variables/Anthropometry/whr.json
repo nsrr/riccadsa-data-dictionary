@@ -1,6 +1,6 @@
 {
   "id": "whr",
-  "display_name": "Waist-Hip Ratio at Visit 1 (baseline)",
+  "display_name": "Waist-Hip Ratio",
   "description": "",
   "type": "numeric"
 }

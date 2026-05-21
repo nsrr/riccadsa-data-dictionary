@@ -1,0 +1,7 @@
+{
+  "id": "echo_valve_abnorm",
+  "display_name": "Abnormal Valve from Echocardiogram",
+  "description": "",
+  "type": "choices",
+  "domain": "yes_no"
+}

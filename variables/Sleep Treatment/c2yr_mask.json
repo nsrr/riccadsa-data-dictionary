@@ -1,7 +1,0 @@
-{
-  "id": "c2yr_mask",
-  "display_name": "CPAP Mask Type at 2-year follow up",
-  "description": "",
-  "type": "choices",
-  "domain": "mask_type"
-}

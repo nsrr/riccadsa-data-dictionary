@@ -1,7 +1,0 @@
-{
-  "id": "v2_max_bp",
-  "display_name": "Systolic blood pressure at maximum effort at Visit 2 (3-month follow-up)",
-  "description": "",
-  "type": "numeric",
-  "units": "millimeters of mercury (mmHg)"
-}

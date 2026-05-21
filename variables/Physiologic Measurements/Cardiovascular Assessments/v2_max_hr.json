@@ -1,7 +1,0 @@
-{
-  "id": "v2_max_hr",
-  "display_name": "Peak heart rate during maximal exercise test at Visit 2 (3-month follow-up)",
-  "description": "",
-  "type": "numeric",
-  "units": "beats per minute (bpm)"
-}

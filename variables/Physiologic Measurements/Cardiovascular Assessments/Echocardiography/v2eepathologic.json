@@ -1,7 +1,0 @@
-{
-  "id": "v2eepathologic",
-  "display_name": "Pathologic E/e' at Visit 2 (3-month follow-up)",
-  "description": "E/e' >=15 is considered pathologic ",
-  "type": "choices",
-  "domain": "yes_no"
-}

@@ -1,0 +1,7 @@
+{
+  "id": "delta_lvpw",
+  "display_name": "Change in Left Ventricular Posterior Wall (LVPW) between baseline and follow-up visit",
+  "description": "",
+  "type": "numeric",
+  "units": "millimeters (mm)"
+}

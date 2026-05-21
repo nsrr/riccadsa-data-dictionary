@@ -1,0 +1,6 @@
+{
+  "id": "deprscore",
+  "display_name": "Depression score",
+  "description": "",
+  "type": "numeric"
+}

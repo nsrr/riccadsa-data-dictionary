@@ -1,0 +1,7 @@
+{
+  "id": "bnp",
+  "display_name": "B-type natriuretic peptide level ",
+  "description": "",
+  "type": "numeric",
+  "units": "picograms per milliliter (pg/mL)"
+}

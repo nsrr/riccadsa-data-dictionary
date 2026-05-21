@@ -1,0 +1,7 @@
+{
+  "id": "days",
+  "display_name": "Total days to follow up visit",
+  "description": "",
+  "type": "numeric",
+  "units": "days"
+}

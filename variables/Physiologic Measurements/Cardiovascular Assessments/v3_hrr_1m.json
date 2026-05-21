@@ -1,8 +1,0 @@
-{
-  "id": "v3_hrr_1m",
-  "display_name": "Heart rate recovery at 1 minute post-exercise at Visit 3 (1-year follow-up)",
-  "description": "",
-  "type": "numeric",
-  "units": "beats per minute (bpm)",
-  "calculation": "V2_MAX_HR-V2_HR_P1M"
-}

@@ -1,7 +1,0 @@
-{
-  "id": "first_event_type",
-  "display_name": "Type of first cardiovascular event in composite endpoint 1",
-  "description": "",
-  "type": "choices",
-  "domain": "first_event_type"
-}

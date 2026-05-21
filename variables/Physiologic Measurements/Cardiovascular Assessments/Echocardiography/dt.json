@@ -1,0 +1,7 @@
+{
+  "id": "dt",
+  "display_name": "Deceleration time",
+  "description": "",
+  "type": "numeric",
+  "units": "milliseconds (ms)"
+}

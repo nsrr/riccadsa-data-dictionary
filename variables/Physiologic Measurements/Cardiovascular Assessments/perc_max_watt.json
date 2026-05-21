@@ -1,0 +1,7 @@
+{
+  "id": "perc_max_watt",
+  "display_name": "Maximal effort performed",
+  "description": "",
+  "type": "numeric",
+  "units": "watts (W)"
+}

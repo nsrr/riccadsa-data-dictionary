@@ -1,7 +1,0 @@
-{
-  "id": "v1la_dilated",
-  "display_name": "Dialated left atrial diameter at Visit 1 (baseline)",
-  "description": "Left atrial diameter > 40 for men or >39 for women is considered dialated",
-  "type": "choices",
-  "domain": "yes_no"
-}

@@ -1,0 +1,7 @@
+{
+  "id": "cpapd",
+  "display_name": "Total CPAP use-days",
+  "description": "",
+  "type": "numeric",
+  "units": "days"
+}

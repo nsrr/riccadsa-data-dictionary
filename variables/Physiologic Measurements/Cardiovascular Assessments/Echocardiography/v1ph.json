@@ -1,7 +1,0 @@
-{
-  "id": "v1ph",
-  "display_name": "Pulmonary Hypertention at Visit 1 (baseline)",
-  "description": "PAH >= 35 is classified as Pulmonary Hypertension ",
-  "type": "choices",
-  "domain": "yes_no"
-}

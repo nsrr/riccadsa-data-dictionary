@@ -1,0 +1,7 @@
+{
+  "id": "asa",
+  "display_name": "Whether the patient is using Aspirin",
+  "description": "",
+  "type": "choices",
+  "domain": "yes_no"
+}

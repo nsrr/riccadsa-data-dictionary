@@ -1,0 +1,7 @@
+{
+  "id": "hr_p4m",
+  "display_name": "Heart rate at 4 minutes Post-Exercise",
+  "description": "",
+  "type": "numeric",
+  "units": "beats per minute (bpm)"
+}

@@ -1,7 +1,0 @@
-{
-  "id": "c1yr_days",
-  "display_name": "Number of days between baseline visit and 1 year follow-up",
-  "description": "",
-  "type": "numeric",
-  "units": "days"
-}

@@ -1,7 +1,0 @@
-{
-  "id": "v3_hr_rest",
-  "display_name": "Resting heart rate at Visit 3 (1-year follow-up)",
-  "description": "",
-  "type": "numeric",
-  "units": "beats per minute (bpm)"
-}

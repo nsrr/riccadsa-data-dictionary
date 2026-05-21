@@ -1,0 +1,7 @@
+{
+  "id": "la",
+  "display_name": "Left atrial diameter",
+  "description": "",
+  "type": "numeric",
+  "units": "millimeters (mm)"
+}

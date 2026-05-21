@@ -1,7 +1,0 @@
-{
-  "id": "v1echo_valve_abnorm",
-  "display_name": "Abnormal Valve from Echocardiogram at Visit 1 (baseline)",
-  "description": "",
-  "type": "choices",
-  "domain": "yes_no"
-}

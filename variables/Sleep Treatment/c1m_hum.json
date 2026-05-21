@@ -1,7 +1,0 @@
-{
-  "id": "c1m_hum",
-  "display_name": "Indicator for if humidifier is added at 1 month",
-  "description": "",
-  "type": "choices",
-  "domain": "yes_no"
-}

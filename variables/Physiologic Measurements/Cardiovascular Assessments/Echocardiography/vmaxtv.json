@@ -1,0 +1,7 @@
+{
+  "id": "vmaxtv",
+  "display_name": "Tricuspid Valve Maximum Velocity",
+  "description": "",
+  "type": "numeric",
+  "units": "meters per second (m/s)"
+}
