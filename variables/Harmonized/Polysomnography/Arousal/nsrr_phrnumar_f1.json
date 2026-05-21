@@ -5,7 +5,7 @@
   "type": "numeric",
   "units": "number of events per hour",
   "labels": [
-    "phrnumar_f1t2"
+    "phrnumrs"
   ],
   "commonly_used": true
 }

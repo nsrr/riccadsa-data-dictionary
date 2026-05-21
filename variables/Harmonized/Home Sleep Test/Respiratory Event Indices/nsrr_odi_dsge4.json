@@ -2,5 +2,8 @@
   "id": "nsrr_odi_dsge4",
   "display_name": "Oxygen Desaturation Index (4%)",
   "description": "Harmonized by the NSRR team. Refer to the source for detailed definition for respiratory events: :psg_odi:",
-  "type": "numeric"
+  "type": "numeric",
+  "labels": [
+    "odi_dsge4_f1t2"
+  ]
 }
