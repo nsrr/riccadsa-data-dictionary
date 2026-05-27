@@ -1,4 +1,4 @@
-version <- "0.1.0.pre1"
+version <- "0.1.0.pre2"
 setwd("/Volumes/bwh-sleepepi-nsrr-staging/20260521-riccadsa")
 
 library(tidyverse)
@@ -17,9 +17,44 @@ df <- df |>
   select(-all_of(delete_vars$V1))|>
   rename_with(tolower)
 
+date_vars <- c(
+  "date",
+  "date_inter",
+  "date_screening",
+  "echo_date",
+  "final_date",
+  "fu",
+  "ami_date",
+  "cvd_mort_date",
+  "date_hosp_af_cardiac_failure",
+  "firstevent_date",
+  "incident_stroke_date",
+  "mortdate",
+  "newcabg_date",
+  "newpci_date",
+  "newrevasc_date",
+  "exercise_date",
+  "date_blood",
+  "cpapreturndate",
+  "cpap",
+  "cpapstartdate",
+  "date_psg"
+)
+
+character_vars <- c(
+  "cause_of_death",
+  "smokinghistory_comments",
+  "reason_english",
+  "timepoint"
+)
+
+id_vars <- c(
+  "patnr",
+  "riccadsa_id")
+
 df_long <- df |>
   pivot_longer(
-    cols = -any_of(c("patnr", "riccadsa_id")),
+    cols = -any_of(id_vars),
     names_to = "original_var",
     values_to = "value",
     values_transform = list(value = as.character)
@@ -28,7 +63,15 @@ df_long <- df |>
   select(patnr, riccadsa_id, timepoint, measure, value) |>
   pivot_wider(
     names_from = measure,
-    values_from = value )
+    values_from = value ) |>
+  mutate(
+    across(any_of(date_vars), as.Date),
+    across(any_of(character_vars), as.character),
+    across(
+      -any_of(c(id_vars, date_vars, character_vars)),
+      ~ parse_number(as.character(.x))
+    )
+  )
 
 timepoints_main <- c(
   "V0_screening",
@@ -135,3 +178,5 @@ df_h <- df_long |>
   arrange(nsrrid, nsrr_visit)
 
 write.csv(df_h, file.path(release_path, paste0(version, "/riccadsa-harmonized-dataset-", version, ".csv")), na = "", row.names = F)
+
+checks <-main_df|>select(riccadsa_id, age, visit, l, weight, bmi, waist, hip, whr, max_bp, psg_av_oxygensat_rem,psg_tst ,psg_delta_minutes, psg_delta_percent, psg_mean_pulse)
