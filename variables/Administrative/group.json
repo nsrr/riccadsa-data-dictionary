@@ -1,6 +1,6 @@
 {
   "id": "group",
-  "display_name": "Study groups based on SLEEPY status and OSA status",
+  "display_name": "Study groups based on sleepiness  and OSA category",
   "description": "",
   "type": "choices",
   "domain": "group"

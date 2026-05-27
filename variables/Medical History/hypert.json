@@ -1,6 +1,6 @@
 {
   "id": "hypert",
-  "display_name": "Whether a patient has hypertension or not",
+  "display_name": "Whether a patient has diagnosed  hypertension or not",
   "description": "",
   "type": "choices",
   "domain": "yes_no"

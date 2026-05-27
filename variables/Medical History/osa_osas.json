@@ -1,6 +1,6 @@
 {
   "id": "osa_osas",
-  "display_name": "Sleey or Non-Sleepy OSA; OSA diagnosis (AHI >15) at Embletta screening (based on PG_AHI) ",
+  "display_name": "OSA diagnosis based on Embletta screening (based on PG_AHI) :pg_ahi: > 15 is classified as AHI",
   "description": "",
   "type": "choices",
   "domain": "yes_no"

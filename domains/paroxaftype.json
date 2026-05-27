@@ -1,12 +1,12 @@
 [
   {
     "value": "1",
-    "display_name": "paroxysmal AF no relation to intervention",
+    "display_name": "Paroxysmal Atrial Fibrilation, with no relation to intervention",
     "description": ""
   },
   {
     "value": "2",
-    "display_name": "proxysmal AF with relation to intervention",
+    "display_name": "Paroxysmal Atrial Fibrilation, with relation to intervention",
     "description": ""
   }
 ]

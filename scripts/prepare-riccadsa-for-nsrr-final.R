@@ -1,14 +1,15 @@
 version <- "0.1.0.pre1"
-#releasepath <- "/Volumes/bwh-sleepepi-nsrr-staging/"
+setwd("/Volumes/bwh-sleepepi-nsrr-staging/20260521-riccadsa")
 
 library(tidyverse)
 library(haven)
 
-full_dict <- read.csv("/Users/rh306/full_dict_1.csv")
-cpap_vars <- read.delim("/Users/rh306/cpap_vars.txt", header = F)
-delete_vars <- read.delim("/Users/rh306/Library/CloudStorage/OneDrive-MassGeneralBrigham/git/RICCADSA-DD-prep/vars_deleted.txt", header = F)
-data_path <- '/Users/rh306/Partners HealthCare Dropbox/Runpeng Hu/nsrr-riccadsa/511_RICCADSA_ForNSRR_Updated_03April2026.sav'
-release_path <- "/Users/rh306/Library/CloudStorage/OneDrive-MassGeneralBrigham/git/RICCADSA-DD-prep"
+
+full_dict <- read.csv("nsrr-prep/_datasets/full_dict_map.csv")
+cpap_vars <- read.delim("nsrr-prep/_datasets/cpap_vars.txt", header = F)
+delete_vars <- read.delim("nsrr-prep/_datasets/vars_deleted.txt", header = F)
+data_path <- 'original/511_RICCADSA_ForNSRR_Updated_03April2026.sav'
+release_path <- "nsrr-prep/_releases"
 
 df <- read_sav(data_path)
 
@@ -48,15 +49,38 @@ main_df <- df_long |>
       ordered = TRUE
     )
   ) |>
-  arrange(patnr, timepoint)
+  arrange(patnr, timepoint) |>
+  mutate(
+    ssri = case_when(
+      patnr == "647" & ssri == "53" ~ NA,
+      TRUE ~ ssri)) |>
+    rename(visit = timepoint) 
 
 
-write.csv(main_df, file.path(release_path, paste0("riccadsa-dataset-", version, ".csv")), na = "", row.names = F)
+write.csv(main_df, file.path(release_path, paste0(version,"/riccadsa-dataset-", version, ".csv")), na = "", row.names = F)
 
 cpap_df <- df_long |>
-  select(c(patnr, riccadsa_id, timepoint, all_of(cpap_vars$V1)))
+  select(c(patnr, riccadsa_id, timepoint, all_of(cpap_vars$V1)))|>
+  mutate( # remove undefined values
+    mask = case_when(
+      patnr == "97" & mask == 0 ~ NA,
+      TRUE ~ mask),
+    hum = case_when(
+      hum == 2 ~ NA,
+      TRUE ~ hum)) |>
+  rename(visit = timepoint) 
 
-write.csv(cpap_df, file.path(release_path, paste0("/riccadsa-cpap-dataset-", version, ".csv")), na = "", row.names = F)
+
+corrections <- tribble(
+  ~df, ~patnr, ~variable, ~old_value, ~new_value, ~reason,
+  "main_df", 647, "ssri", 53, NA, "Removed to NA, Undefined code in dictionary",
+  "cpap_df", 97, "mask", 0, NA, "Removed to NA, undefined code in dictionary",
+  "cpap_df", 233, "hum", 2, NA, "Removed to NA, undefined code in dictionary",
+  "cpap_df", 489, "hum", 2, NA, "Removed to NA, undefined code in dictionary",
+)
+
+
+write.csv(cpap_df, file.path(release_path, paste0(version,"/riccadsa-cpap-dataset-", version, ".csv")), na = "", row.names = F)
 
          
 timepoints_3 <- c("V1_baseline","V2_3m","V3_1yr")
@@ -75,6 +99,7 @@ df_h <- df_long |>
   ) |>
   transmute(
     nsrrid = patnr,
+    visit = timepoint,
     nsrr_visit = timepoint,
     nsrr_age = round(as.numeric(age), 1),
     nsrr_sex = case_match(
@@ -99,7 +124,7 @@ df_h <- df_long |>
       )
     ),
     nsrr_tst_f1 = psg_tst,
-    nsrr_ahi_ = psg_ahi,
+    #nsrr_ahi_ = psg_ahi, #no harmonized ahi because it doesn't meet standard definition
     nsrr_odi_dsge4 = psg_odi,
     nsrr_pctdursp_s3 = psg_delta_percent,
     nsrr_pctdursp_sr = psg_rem_percent,
@@ -109,4 +134,4 @@ df_h <- df_long |>
   ) |>
   arrange(nsrrid, nsrr_visit)
 
-write.csv(df_h, file.path(release_path, paste0("/riccadsa-harmonized-dataset-", version, ".csv")), na = "", row.names = F)
+write.csv(df_h, file.path(release_path, paste0(version, "/riccadsa-harmonized-dataset-", version, ".csv")), na = "", row.names = F)

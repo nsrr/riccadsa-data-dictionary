@@ -1,6 +1,6 @@
 {
   "id": "lvm_pathologic",
-  "display_name": "Indivator of pathologic Left Ventricular Mass (LVM) ",
+  "display_name": "Pathologic left ventricular mass",
   "description": "",
   "type": "choices",
   "domain": "yes_no"

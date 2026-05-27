@@ -1,6 +1,6 @@
 {
   "id": "echo",
-  "display_name": "Transthoracic Echocardiogram done",
+  "display_name": "Indicator of whether Transthoracic Echocardiogram was done",
   "description": "",
   "type": "choices",
   "domain": "yes_no"

@@ -1,6 +1,6 @@
 {
   "id": "lvef",
-  "display_name": "Left Ventricular ejection fraction",
+  "display_name": "Left Ventricular Ejection Fraction",
   "description": "",
   "type": "numeric",
   "units": "percent (%)"

@@ -1,7 +1,7 @@
 {
   "id": "chronotropic_incompetence",
   "display_name": "Chronotropic incompetence",
-  "description": "Chonotropic response =<0.8 is considered ",
+  "description": ":chronotropic_response: =<0.8 is considered incompetence",
   "type": "choices",
   "domain": "yes_no"
 }

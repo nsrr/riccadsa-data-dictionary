@@ -1,6 +1,6 @@
 {
   "id": "cpaptype_base",
-  "display_name": "Type of CPAP machine at Baseline",
+  "display_name": "Type of CPAP machine at baseline",
   "description": "",
   "type": "choices",
   "domain": "cpaptype"

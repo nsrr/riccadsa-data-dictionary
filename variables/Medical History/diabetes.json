@@ -1,6 +1,6 @@
 {
   "id": "diabetes",
-  "display_name": "Whether a patient has diabetes or not",
+  "display_name": "Whether a patient has diagnosed diabetes",
   "description": "",
   "type": "choices",
   "domain": "yes_no"

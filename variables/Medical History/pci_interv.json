@@ -1,6 +1,6 @@
 {
   "id": "pci_interv",
-  "display_name": "Percutaneous Coronary Intervention Type (Elective or Acute/Subacute)",
+  "display_name": "Percutaneous coronary intervention urgency Type ",
   "description": "",
   "type": "choices",
   "domain": "pci_interv"

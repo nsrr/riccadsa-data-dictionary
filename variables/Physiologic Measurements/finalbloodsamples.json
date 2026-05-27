@@ -1,6 +1,6 @@
 {
   "id": "finalbloodsamples",
-  "display_name": "Indicator of final blood samples taken at end of study",
+  "display_name": "Whether final blood sampleswere  taken at the end of study",
   "description": "",
   "type": "choices",
   "domain": "yes_no"

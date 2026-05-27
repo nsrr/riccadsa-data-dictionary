@@ -1,6 +1,6 @@
 {
   "id": "indic_pci",
-  "display_name": "Urgency Indicator for Percutaneous Coronary Intervention(PCI) (Rescue/Subacute/Elective)",
+  "display_name": "Urgency indicator for Percutaneous Coronary Intervention(PCI)",
   "description": "",
   "type": "choices",
   "domain": "indic_pci"

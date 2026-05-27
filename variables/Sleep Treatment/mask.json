@@ -1,6 +1,6 @@
 {
   "id": "mask",
-  "display_name": "choices",
+  "display_name": "CPAP mask type",
   "description": "",
   "type": "choices",
   "domain": "mask_type"

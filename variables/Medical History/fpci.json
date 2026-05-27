@@ -1,6 +1,6 @@
 {
   "id": "fpci",
-  "display_name": "Previous PCI",
+  "display_name": "Whether a patient had previous PCI intervention",
   "description": "",
   "type": "choices",
   "domain": "yes_no"

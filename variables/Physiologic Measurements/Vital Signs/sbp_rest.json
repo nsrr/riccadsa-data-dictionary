@@ -1,6 +1,6 @@
 {
   "id": "sbp_rest",
-  "display_name": "Resting systolic blood pressure",
+  "display_name": "Resting systolic blood pressure during maximal exercise test",
   "description": "",
   "type": "numeric",
   "units": "millimeters of mercury (mmHg)"

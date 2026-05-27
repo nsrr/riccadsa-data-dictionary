@@ -1,6 +1,6 @@
 {
   "id": "daysfrom_interv",
-  "display_name": "Days between revascularization intervention and Visit",
+  "display_name": "Days between revascularization intervention and study visit",
   "description": "",
   "type": "integer",
   "units": "days"

@@ -1,6 +1,6 @@
 {
   "id": "eapathologic",
-  "display_name": "Indicator of pathologic E/A ratio ",
+  "display_name": "Pathologic E/A ratio ",
   "description": "",
   "type": "choices",
   "domain": "yes_no"

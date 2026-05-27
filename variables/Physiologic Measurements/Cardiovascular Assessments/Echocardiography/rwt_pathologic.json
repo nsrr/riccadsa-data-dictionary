@@ -1,7 +1,7 @@
 {
   "id": "rwt_pathologic",
   "display_name": "Pathologic RWT",
-  "description": "RWT > 0.43 is considered pathologic, indicates concentric remodeling or hypertrophy",
+  "description": ":rwt:> 0.43 is considered pathologic, indicates concentric remodeling or hypertrophy",
   "type": "choices",
   "domain": "yes_no"
 }

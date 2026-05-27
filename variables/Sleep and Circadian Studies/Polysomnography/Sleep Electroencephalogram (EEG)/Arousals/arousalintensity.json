@@ -1,6 +1,6 @@
 {
   "id": "arousalintensity",
   "display_name": "Arousal Intensity",
-  "description": "EEG-based arousal intensity as classified by a machine learning algorithm (1ÃÂ¢ÃÂÃÂ4 scale), averaged across all arousals during the recording period.",
+  "description": "EEG-based arousal intensity as classified by a machine learning algorithm (1-4 scale), averaged across all arousals during the recording period.",
   "type": "numeric"
 }

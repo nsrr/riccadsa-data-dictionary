@@ -1,7 +1,7 @@
 {
   "id": "arousalintensity_quartiles",
   "display_name": "Quartile of Aroursal Intensity",
-  "description": "Average intensity of EEG based arousal classified by machine learning  (1-4 scale), averaged over all nightly arousals ",
+  "description": "",
   "type": "choices",
   "domain": "quartiles"
 }

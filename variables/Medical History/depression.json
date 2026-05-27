@@ -1,6 +1,6 @@
 {
   "id": "depression",
-  "display_name": "Whether the patient has diagnosied depression",
+  "display_name": "Whether the patient has diagnosed depression",
   "description": "",
   "type": "choices",
   "domain": "yes_no"

@@ -1,6 +1,6 @@
 {
   "id": "performed_max_effort",
-  "display_name": "Percent of maximum workload (Watts) achieved during maximal exercise test",
+  "display_name": "Percent of maximum workload achieved during maximal exercise test",
   "description": "",
   "type": "numeric",
   "units": "percent (%)"

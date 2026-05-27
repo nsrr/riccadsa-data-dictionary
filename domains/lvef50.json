@@ -1,12 +1,12 @@
 [
   {
     "value": "0",
-    "display_name": "V1lvef>=50",
+    "display_name": "lvef>=50",
     "description": ""
   },
   {
     "value": "1",
-    "display_name": "V1lvef<50",
+    "display_name": "lvef<50",
     "description": ""
   }
 ]

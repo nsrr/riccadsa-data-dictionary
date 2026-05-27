@@ -1,6 +1,6 @@
 {
   "id": "fbypass",
-  "display_name": "Previous Bypass",
+  "display_name": "Whether a patient had previous Bypass intervention",
   "description": "",
   "type": "choices",
   "domain": "yes_no"

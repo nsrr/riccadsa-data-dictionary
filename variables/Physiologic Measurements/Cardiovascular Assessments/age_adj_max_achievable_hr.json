@@ -1,7 +1,7 @@
 {
   "id": "age_adj_max_achievable_hr",
   "display_name": "Age adjusted maximal achievable Heart Rate",
-  "description": "Max achievable HR: (220 - age at time of exercise test)",
+  "description": "Max achievable HR = (220 - age at time of exercise test)",
   "type": "numeric",
   "units": "beats per minute (bpm)"
 }

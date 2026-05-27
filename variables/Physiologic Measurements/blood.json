@@ -1,6 +1,6 @@
 {
   "id": "blood",
-  "display_name": "Blood samples collected at Visit",
+  "display_name": "Whether blood samples were collected during study visit ",
   "description": "",
   "type": "choices",
   "domain": "yes_no"

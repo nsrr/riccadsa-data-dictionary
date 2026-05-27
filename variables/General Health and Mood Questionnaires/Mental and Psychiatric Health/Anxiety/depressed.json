@@ -1,6 +1,6 @@
 {
   "id": "depressed",
-  "display_name": "Binary indicator of being depressed, based on depression score",
-  "description": "DEPRSCORE >= 50 is considered depressed",
+  "display_name": "Whether the patient is depressed, based on depression score",
+  "description": ":deprscore: >= 50 is considered depressed",
   "type": "numeric"
 }

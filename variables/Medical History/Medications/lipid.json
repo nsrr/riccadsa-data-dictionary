@@ -1,6 +1,6 @@
 {
   "id": "lipid",
-  "display_name": "Whether the patient is using Lipid reducing drug at baseline",
+  "display_name": "Whether the patient is using Lipid reducing drugs",
   "description": "",
   "type": "choices",
   "domain": "yes_no"
