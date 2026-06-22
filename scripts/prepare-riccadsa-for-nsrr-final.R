@@ -305,4 +305,4 @@ df_h <- df_long |>
 
 write.csv(df_h, file.path(release_path, paste0(version, "/riccadsa-harmonized-dataset-", version, ".csv")), na = "", row.names = F)
 
-checks <-main_df|>select(riccadsa_id, age, visit, l, weight, bmi, waist, hip, whr, max_bp, psg_av_oxygensat_rem,psg_tst ,psg_delta_minutes, psg_delta_percent, psg_mean_pulse)
+#checks <-main_df|>select(riccadsa_id, age, visit, l, weight, bmi, waist, hip, whr, max_bp, psg_av_oxygensat_rem,psg_tst ,psg_delta_minutes, psg_delta_percent, psg_mean_pulse)
