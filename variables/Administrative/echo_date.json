@@ -1,6 +1,0 @@
-{
-  "id": "echo_date",
-  "display_name": "Date of Echocardiogram",
-  "description": "",
-  "type": "date"
-}

@@ -1,5 +1,5 @@
 {
-  "id": "cpapd",
+  "id": "days_cpap_use",
   "display_name": "Total CPAP use-days",
   "description": "",
   "type": "numeric",

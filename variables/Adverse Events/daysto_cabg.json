@@ -1,0 +1,7 @@
+{
+  "id": "daysto_cabg",
+  "display_name": "Number of days between date of new coronary artery bypass graft and date of screening",
+  "description": "",
+  "type": "numeric",
+  "units": "days"
+}

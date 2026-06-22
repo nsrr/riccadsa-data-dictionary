@@ -1,0 +1,7 @@
+{
+  "id": "daysto_exercise",
+  "display_name": "Number of days between date of maximal exercise test and date of screening",
+  "description": "",
+  "type": "integer",
+  "units": "days"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "daysto_newrevasc",
+  "display_name": "Number of days between date of new revascularization and date of screening",
+  "description": "",
+  "type": "numeric",
+  "units": "days"
+}

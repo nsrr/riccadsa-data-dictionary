@@ -1,0 +1,7 @@
+{
+  "id": "daysto_stroke",
+  "display_name": "Number of days between date of stroke and date of screening",
+  "description": "",
+  "type": "numeric",
+  "units": "days"
+}

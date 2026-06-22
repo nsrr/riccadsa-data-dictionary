@@ -1,0 +1,7 @@
+{
+  "id": "daysto_newpci",
+  "display_name": "Number of days between date of new percutaneous coronary intervention and date of screening",
+  "description": "",
+  "type": "numeric",
+  "units": "days"
+}

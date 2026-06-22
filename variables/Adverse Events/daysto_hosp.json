@@ -1,0 +1,7 @@
+{
+  "id": "daysto_hosp",
+  "display_name": "Number of days between date of hospitalization due to atrial fibrilation or cardiac failure and date of screening",
+  "description": "",
+  "type": "numeric",
+  "units": "days"
+}

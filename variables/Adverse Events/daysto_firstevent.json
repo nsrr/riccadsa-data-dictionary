@@ -1,0 +1,7 @@
+{
+  "id": "daysto_firstevent",
+  "display_name": "Number of days between date of first event in composite endpoint 1 and screening visit",
+  "description": "",
+  "type": "numeric",
+  "units": "days"
+}

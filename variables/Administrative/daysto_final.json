@@ -1,0 +1,7 @@
+{
+  "id": "daysto_final",
+  "display_name": "Number of days between final date of follow up and date of screening",
+  "description": "",
+  "type": "numeric",
+  "units": "days"
+}

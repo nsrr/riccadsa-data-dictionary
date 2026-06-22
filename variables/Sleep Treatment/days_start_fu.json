@@ -1,0 +1,7 @@
+{
+  "id": "days_start_fu",
+  "display_name": "Total number of days between CPAP start date and CPAP follow-up date",
+  "description": "",
+  "type": "numeric",
+  "units": "days"
+}

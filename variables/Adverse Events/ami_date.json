@@ -1,6 +1,0 @@
-{
-  "id": "ami_date",
-  "display_name": "Date of acute myocardial infarction",
-  "description": "",
-  "type": "date"
-}

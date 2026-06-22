@@ -1,0 +1,7 @@
+{
+  "id": "daysto_visit",
+  "display_name": "Days between screening visit follow-up study visit ",
+  "description": "",
+  "type": "integer",
+  "units": "days"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "daysto_mort",
+  "display_name": "Number of days between date of mortality and date of screening",
+  "description": "",
+  "type": "numeric",
+  "units": "days"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "daysto_ami",
+  "display_name": "Number of days between date of acute myocardial infarction and date of screening",
+  "description": "",
+  "type": "numeric",
+  "units": "days"
+}

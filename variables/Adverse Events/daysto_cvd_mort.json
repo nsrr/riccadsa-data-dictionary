@@ -1,0 +1,7 @@
+{
+  "id": "daysto_cvd_mort",
+  "display_name": "Number of days between date of cardiovascular mortality and date of screening",
+  "description": "",
+  "type": "numeric",
+  "units": "days"
+}

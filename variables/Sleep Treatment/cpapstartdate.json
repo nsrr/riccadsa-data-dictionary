@@ -1,6 +1,0 @@
-{
-  "id": "cpapstartdate",
-  "display_name": "The date a patient started CPAP treatment",
-  "description": "",
-  "type": "date"
-}

@@ -1,13 +1,13 @@
-version <- "0.1.0.pre2"
+version <- "0.1.0.pre3"
 setwd("/Volumes/bwh-sleepepi-nsrr-staging/20260521-riccadsa")
 
 library(tidyverse)
 library(haven)
 
 
-full_dict <- read.csv("nsrr-prep/_datasets/full_dict_map.csv")
-cpap_vars <- read.delim("nsrr-prep/_datasets/cpap_vars.txt", header = F)
-delete_vars <- read.delim("nsrr-prep/_datasets/vars_deleted.txt", header = F)
+full_dict <- read.csv("nsrr-prep/metadata/full_dict_map.csv")
+cpap_vars <- read.delim("nsrr-prep/metadata/cpap_vars.txt", header = F)
+delete_vars <- read.delim("nsrr-prep/metadata/vars_deleted.txt", header = F)
 data_path <- 'original/511_RICCADSA_ForNSRR_Updated_03April2026.sav'
 release_path <- "nsrr-prep/_releases"
 
@@ -36,7 +36,7 @@ date_vars <- c(
   "exercise_date",
   "date_blood",
   "cpapreturndate",
-  "cpap",
+  "cpap_ctrl_date",
   "cpapstartdate",
   "date_psg"
 )
@@ -82,8 +82,101 @@ timepoints_main <- c(
 )
 
 
-main_df <- df_long |> 
-  select(-all_of(cpap_vars$V1)) |>
+
+### Further de-identify by removing all the dates: 
+
+# 1. Pull screening date for each participant
+screening_dates <- df_long |>
+  filter(timepoint == "V0_screening") |>
+  select(patnr, riccadsa_id, date_screening) |>
+  mutate(date_screening = as.Date(date_screening))
+
+# 2. Join screening date back to all rows
+df_long2 <- df_long |>
+  select(-date_screening) |>
+  left_join(screening_dates, by = c("patnr", "riccadsa_id")) |>
+  mutate(daysfrom_interv = coalesce(daysto_screening, daysfrom_interv),
+         daysto_visit = as.numeric(date - date_screening),
+    daysto_echo = if_else(
+      timepoint == "outcome",
+      as.numeric(echo_date - date_screening),
+      NA_real_
+    ),
+    daysto_final = if_else(
+      timepoint == "outcome",
+      as.numeric(final_date - date_screening),
+      NA_real_
+    ),
+    daysto_ami = if_else(
+      timepoint == "outcome",
+      as.numeric(ami_date - date_screening),
+      NA_real_
+    ),
+    daysto_cvd_mort = if_else(
+      timepoint == "outcome",
+      as.numeric(cvd_mort_date - date_screening),
+      NA_real_
+    ),
+    daysto_hosp = if_else(
+      timepoint == "outcome",
+      as.numeric(date_hosp_af_cardiac_failure - date_screening),
+      NA_real_
+    ),
+    daysto_firstevent = if_else(
+      timepoint == "outcome",
+      as.numeric(firstevent_date - date_screening),
+      NA_real_
+    ),
+    daysto_stroke = if_else(
+      timepoint == "outcome",
+      as.numeric(incident_stroke_date - date_screening),
+      NA_real_
+    ),
+    daysto_mort = if_else(
+      timepoint == "outcome",
+      as.numeric(mortdate - date_screening),
+      NA_real_
+    ),
+    daysto_cabg = if_else(
+      timepoint == "outcome",
+      as.numeric(newcabg_date - date_screening),
+      NA_real_
+    ),
+    daysto_newpci = if_else(
+      timepoint == "outcome",
+      as.numeric(newpci_date - date_screening),
+      NA_real_
+    ),
+    daysto_newrevasc = if_else(
+      timepoint == "outcome",
+      as.numeric(newrevasc_date - date_screening),
+      NA_real_
+    ),
+    daysto_exercise = if_else(
+      timepoint == "outcome",
+      as.numeric(exercise_date - date_screening),
+      NA_real_
+    )
+  ) |>
+  relocate(daysfrom_interv, .after = date_inter) |>
+  relocate(daysto_visit, .after = daysfrom_interv) |>
+  relocate(daysto_echo, .after = echo_date) |>
+  relocate(daysto_final, .after = final_date) |>
+  relocate(daysto_ami, .after = ami_date) |>
+  relocate(daysto_cvd_mort, .after = cvd_mort_date) |>
+  relocate(daysto_hosp, .after = date_hosp_af_cardiac_failure) |>
+  relocate(daysto_firstevent, .after = firstevent_date) |>
+  relocate(daysto_stroke, .after = incident_stroke_date) |>
+  relocate(daysto_mort, .after = mortdate) |>
+  relocate(daysto_cabg, .after = newcabg_date) |>
+  relocate(daysto_newpci, .after = newpci_date) |>
+  relocate(daysto_newrevasc, .after = newrevasc_date) |>
+  relocate(daysto_exercise, .after = exercise_date)
+###
+
+
+main_df <- df_long2 |> 
+  select(-all_of(c(cpap_vars$V1, date_vars))) |>
   filter(timepoint %in% timepoints_main) |>
   mutate(
     timepoint = factor(
@@ -97,13 +190,28 @@ main_df <- df_long |>
     ssri = case_when(
       patnr == "647" & ssri == "53" ~ NA,
       TRUE ~ ssri)) |>
-    rename(visit = timepoint) 
+    rename(visit = timepoint)  |>
+  select(-daysto_screening)
 
 
 write.csv(main_df, file.path(release_path, paste0(version,"/riccadsa-dataset-", version, ".csv")), na = "", row.names = F)
 
+timepoints_cpap <- c(
+  "cpap_baseline",
+  "1m_cpap",
+  "3m_cpap",
+  "6m_cpap",
+  "1yr_cpap",
+  "2yr_cpap",
+  "3yr_cpap",
+  "4yr_cpap",
+  "5yr_cpap",
+  "6yr_cpap",
+  "cpap_outcome")
+
 cpap_df <- df_long |>
   select(c(patnr, riccadsa_id, timepoint, all_of(cpap_vars$V1)))|>
+  filter(timepoint %in% timepoints_cpap) |>
   mutate( # remove undefined values
     mask = case_when(
       patnr == "97" & mask == 0 ~ NA,
@@ -111,7 +219,25 @@ cpap_df <- df_long |>
     hum = case_when(
       hum == 2 ~ NA,
       TRUE ~ hum)) |>
-  rename(visit = timepoint) 
+  mutate(
+    timepoint = factor(
+      timepoint,
+      levels = timepoints_cpap,
+      ordered = TRUE
+    )) |>
+  arrange(patnr, timepoint) |>
+  rename(visit = timepoint) |>
+  select(-fu) |>
+  filter(
+    if_any(
+      -c(patnr, riccadsa_id, visit),
+      ~ !is.na(.)
+    )
+  ) |>
+  relocate(cpap_ctrl_date, .after = cpapstartdate) |>
+  select(-c(cpapstartdate, cpapreturndate, cpap_ctrl_date)) |>
+  rename(days_cpap_use = cpapd,
+         days_start_fu = days)
 
 
 corrections <- tribble(

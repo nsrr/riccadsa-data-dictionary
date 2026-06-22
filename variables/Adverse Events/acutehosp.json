@@ -1,7 +1,0 @@
-{
-  "id": "acutehosp",
-  "display_name": "Acute hospitalization for CVD",
-  "description": "",
-  "type": "choices",
-  "domain": "yes_no"
-}

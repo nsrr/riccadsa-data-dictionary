@@ -1,6 +1,6 @@
 {
   "id": "c_total",
-  "display_name": "Total days patient used CPAP machine at time of follow-up ",
+  "display_name": "",
   "description": "",
   "type": "numeric",
   "units": "days"

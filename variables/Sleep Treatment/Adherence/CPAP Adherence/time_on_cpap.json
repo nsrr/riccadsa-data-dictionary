@@ -1,6 +1,6 @@
 {
   "id": "time_on_cpap",
-  "display_name": "Number of Days between CPAP start date and return date",
+  "display_name": "Number of days between CPAP start date and return date",
   "description": "",
   "type": "numeric",
   "units": "days"
