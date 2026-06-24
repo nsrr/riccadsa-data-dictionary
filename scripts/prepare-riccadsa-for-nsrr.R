@@ -98,9 +98,9 @@ df_long2 <- df_long |>
   mutate(daysfrom_interv = coalesce(daysto_screening, daysfrom_interv),
          daysto_visit = as.numeric(date - date_screening),
     daysto_echo = if_else(
-      timepoint == "outcome",
+      is.na(daysto_echo),
       as.numeric(echo_date - date_screening),
-      NA_real_
+      daysto_echo
     ),
     daysto_final = if_else(
       timepoint == "outcome",
