@@ -152,7 +152,7 @@ df_long2 <- df_long |>
       NA_real_
     ),
     daysto_exercise = if_else(
-      timepoint == "outcome",
+      !is.na(exercise_date) & !is.na(date_screening),
       as.numeric(exercise_date - date_screening),
       NA_real_
     )
