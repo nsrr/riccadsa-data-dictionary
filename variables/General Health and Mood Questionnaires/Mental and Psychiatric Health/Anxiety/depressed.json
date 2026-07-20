@@ -2,5 +2,6 @@
   "id": "depressed",
   "display_name": "Whether the patient is depressed, based on depression score",
   "description": ":deprscore: >= 50 is considered depressed",
-  "type": "numeric"
+  "type": "choices",
+  "domain": "yes_no"
 }

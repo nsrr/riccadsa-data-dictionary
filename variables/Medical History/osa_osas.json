@@ -1,7 +1,7 @@
 {
   "id": "osa_osas",
-  "display_name": "OSA diagnosis based on Embletta screening (based on PG_AHI) :pg_ahi: > 15 is classified as AHI",
-  "description": "",
+  "display_name": "OSA diagnosis based on Embletta screening (based on PG_AHI) ",
+  "description": ":pg_ahi: > 15 is classified as AHI",
   "type": "choices",
   "domain": "yes_no"
 }

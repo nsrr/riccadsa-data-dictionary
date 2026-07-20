@@ -1,6 +1,6 @@
 {
   "id": "arousalintensity_category",
-  "display_name": "Category of Arousal Indensity",
+  "display_name": "Category of Arousal Intensity",
   "description": "",
   "type": "choices",
   "domain": "endo_cat"

@@ -1,4 +1,4 @@
-version <- "0.1.0.pre3"
+version <- "0.1.0.pre4"
 setwd("/Volumes/bwh-sleepepi-nsrr-staging/20260521-riccadsa")
 
 library(tidyverse)
@@ -80,7 +80,6 @@ timepoints_main <- c(
   "V3_1yr",
   "outcome"
 )
-
 
 
 ### Further de-identify by removing all the dates: 
@@ -188,9 +187,46 @@ main_df <- df_long2 |>
   arrange(patnr, timepoint) |>
   mutate(
     ssri = case_when(
-      patnr == "647" & ssri == "53" ~ NA,
-      TRUE ~ ssri)) |>
-    rename(visit = timepoint)  |>
+      patnr == "647" & ssri == 53 ~ NA_real_,
+      TRUE ~ ssri
+    ),
+    hip = case_when(
+      patnr == "673" & hip == 12 ~ NA_real_,
+      TRUE ~ hip
+    ),
+    whr = case_when(
+      patnr == "673" ~ NA_real_,
+      TRUE ~ whr
+    ),
+    l = case_when(
+      patnr == "684" & l == 83   ~ 183,
+      patnr == "424" & l == 90   ~ 169,
+      patnr == "198" & l == 109  ~ 174,
+      TRUE ~ l
+    ),
+    weight = case_when(
+      patnr == "424" & weight == 169 ~ 90,
+      patnr == "198" & weight == 174 ~ 109,
+      TRUE ~ weight
+    ),
+    max_bp = case_when(
+      patnr == "31" & timepoint == "V3_1yr" ~ NA_real_,
+      TRUE ~ max_bp
+    ), 
+    psg_mean_pulse = case_when(
+      patnr == "112" & psg_mean_pulse == 4 ~ NA_real_,
+      TRUE ~ psg_mean_pulse
+    ),
+    psg_av_oxygensat_rem = case_when(
+      psg_av_oxygensat_rem == 0 ~ NA_real_,
+      TRUE ~ psg_av_oxygensat_rem
+    ),
+    psg_delta_percent = case_when(
+      patnr == "225" & psg_delta_percent == 116.3 ~ round(476.5/48, 1), 
+      TRUE ~ psg_delta_percent
+    )
+  ) |>
+  rename(visit = timepoint) |>
   select(-daysto_screening)
 
 
@@ -243,6 +279,18 @@ cpap_df <- df_long |>
 corrections <- tribble(
   ~df, ~patnr, ~variable, ~old_value, ~new_value, ~reason,
   "main_df", 647, "ssri", 53, NA, "Removed to NA, Undefined code in dictionary",
+  "main_df", 673, "hip", 12, NA, "Removed to NA, extreme outlier",
+  "main_df", 673, "whr", 8.1667, NA, "Removed to NA, extreme outlier",
+  "main_df", 684, "l", 83, 183, "Fix height",
+  "main_df", 424, "l", 90, 169, "switch height and weight",
+  "main_df", 198, "l", 109, 174, "switch height and weight",
+  "main_df", 424, "weight", 169, 90, "switch weight and height",
+  "main_df", 198, "weight", 109, 174, "switch weight and height",
+  "main_df", 31, "max_bp", 31, NA, "Remove to NA, outlier",
+  "main_df", 112, "psg_mean_pulse", 4, NA, "Remove to NA, outlier",
+  "main_df", 533, "psg_av_oxygensat_rem", 0, NA, "Remove to NA, outlier",
+  "main_df", 403, "psg_av_oxygensat_rem", 0, NA, "Remove to NA, outlier",
+  "main_df", 225, "psg_delta_percent", 116.3, 9.9, "Fix delta percent according to delta time and tst",
   "cpap_df", 97, "mask", 0, NA, "Removed to NA, undefined code in dictionary",
   "cpap_df", 233, "hum", 2, NA, "Removed to NA, undefined code in dictionary",
   "cpap_df", 489, "hum", 2, NA, "Removed to NA, undefined code in dictionary",

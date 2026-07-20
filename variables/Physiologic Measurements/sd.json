@@ -1,6 +1,6 @@
 {
   "id": "sd",
-  "display_name": "Binary Indicator of left ventricular ejection fraction over 50",
+  "display_name": "Binary Indicator of left ventricular ejection fraction under 50",
   "description": "",
   "type": "choices",
   "domain": "lvef50"

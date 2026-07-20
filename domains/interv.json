@@ -1,12 +1,12 @@
 [
   {
     "value": "1",
-    "display_name": "Percutaneous Coronary Intervention (PCI)",
+    "display_name": "Pci",
     "description": ""
   },
   {
     "value": "2",
-    "display_name": "Coronary Artery Bypass Grafting (CABG) ",
+    "display_name": "Cabg",
     "description": ""
   }
 ]

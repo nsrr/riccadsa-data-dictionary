@@ -1,6 +1,6 @@
 {
   "id": "hosp_cardiac_failure",
-  "display_name": "Hospitalization due to caridac failure",
+  "display_name": "Hospitalization due to cardiac failure",
   "description": "",
   "type": "choices",
   "domain": "yes_no"
