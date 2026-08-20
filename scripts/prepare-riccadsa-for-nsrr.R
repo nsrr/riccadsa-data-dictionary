@@ -1,15 +1,24 @@
-version <- "0.1.0.pre4"
+version <- "0.1.0.pre6"
 setwd("/Volumes/bwh-sleepepi-nsrr-staging/20260521-riccadsa")
+
 
 library(tidyverse)
 library(haven)
 
 
-full_dict <- read.csv("nsrr-prep/metadata/full_dict_map.csv")
-cpap_vars <- read.delim("nsrr-prep/metadata/cpap_vars.txt", header = F)
-delete_vars <- read.delim("nsrr-prep/metadata/vars_deleted.txt", header = F)
+full_dict <- read.csv("nsrr-prep/metadata/full_dict_map.csv") # file for mapping repeated measures
+
+cpap_vars <- read.delim("nsrr-prep/metadata/cpap_vars.txt", header = F) # list of cpap variables to separate into the cpap dataset
+delete_vars <- read.delim("nsrr-prep/metadata/vars_deleted.txt", header = F) #list of variables to be deleted from the posted dataset (redundant varaibles, or irrelevant variables, as agreed on by NSRR and RICCADSA team)
+
 data_path <- 'original/511_RICCADSA_ForNSRR_Updated_03April2026.sav'
-release_path <- "nsrr-prep/_releases"
+
+release_dir <- file.path("nsrr-prep", "_releases", version)
+
+if (!dir.exists(release_dir)) {
+  dir.create(release_dir, recursive = TRUE)
+}
+
 
 df <- read_sav(data_path)
 
@@ -230,7 +239,7 @@ main_df <- df_long2 |>
   select(-daysto_screening)
 
 
-write.csv(main_df, file.path(release_path, paste0(version,"/riccadsa-dataset-", version, ".csv")), na = "", row.names = F)
+write.csv(main_df, file.path(release_dir, paste0("/riccadsa-dataset-", version, ".csv")), na = "", row.names = F)
 
 timepoints_cpap <- c(
   "cpap_baseline",
@@ -297,8 +306,11 @@ corrections <- tribble(
 )
 
 
-write.csv(cpap_df, file.path(release_path, paste0(version,"/riccadsa-cpap-dataset-", version, ".csv")), na = "", row.names = F)
+write.csv(cpap_df, file.path(release_dir, paste0("/riccadsa-cpap-dataset-", version, ".csv")), na = "", row.names = F)
 
+id_links <- read.csv("nsrr-prep/metadata/RICCADSA_Links_Basics.csv") |>
+  select(PSG_CODES, PATNR) |>
+  rename(nsrr_file_prefix = PSG_CODES)
          
 timepoints_3 <- c("V1_baseline","V2_3m","V3_1yr")
 
@@ -349,8 +361,17 @@ df_h <- df_long |>
     nsrr_bp_systolic = sbp, #sbp baseline
     nsrr_phrnumar_f1 = psg_arousal_total#Arousal Index: Number of arousals per hour of sleep from polysomnography
   ) |>
-  arrange(nsrrid, nsrr_visit)
+  arrange(nsrrid, nsrr_visit) |>
+  left_join(
+    id_links |>
+      mutate(visit = "V1_baseline") |>
+      select(PATNR, visit, nsrr_file_prefix),
+    by = c(
+      "nsrrid" = "PATNR",
+      "visit" = "visit"
+    )
+  )
 
-write.csv(df_h, file.path(release_path, paste0(version, "/riccadsa-harmonized-dataset-", version, ".csv")), na = "", row.names = F)
+write.csv(df_h, file.path(release_dir, paste0("/riccadsa-harmonized-dataset-", version, ".csv")), na = "", row.names = F)
 
 #checks <-main_df|>select(riccadsa_id, age, visit, l, weight, bmi, waist, hip, whr, max_bp, psg_av_oxygensat_rem,psg_tst ,psg_delta_minutes, psg_delta_percent, psg_mean_pulse)
