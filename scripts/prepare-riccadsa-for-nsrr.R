@@ -1,4 +1,4 @@
-version <- "0.1.0.pre6"
+version <- "0.1.0"
 setwd("/Volumes/bwh-sleepepi-nsrr-staging/20260521-riccadsa")
 
 
