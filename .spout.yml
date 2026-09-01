@@ -2,9 +2,9 @@ slug: riccadsa
 visit: visit
 charts:
 - chart: gender
-  title: gender
+  title: Gender
 webservers:
   - name: production
     url: https://sleepdata.org
   - name: staging
-    url: https://zhsleep25.mgb.org
+    url: https://preview.sleepdata.org

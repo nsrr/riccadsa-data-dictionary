@@ -1,11 +1,11 @@
-Riccadsa Data Dictionary
+RICCADSA Data Dictionary
 ======================
 
-[![Build Status](https://travis-ci.com/<REPOSITORY>/riccadsa-data-dictionary.svg?branch=master)](https://travis-ci.com/<REPOSITORY>/riccadsa-data-dictionary)
+[![Build Status](https://app.travis-ci.com/nsrr/riccadsa-data-dictionary.svg?branch=master)](https://app.travis-ci.com/github/nsrr/riccadsa-data-dictionary)
 
 ### Exports
 
-The riccadsa data dictionary can be exported to CSV by typing:
+The RICCADSA data dictionary can be exported to CSV by typing:
 
 ```
 spout export
@@ -18,7 +18,7 @@ dictionary.
 ### Testing
 
 The riccadsa data dictionary is tested using the
-[Spout Gem](https://github.com/sleepepi/spout).
+[Spout Gem](https://github.com/nsrr/spout).
 
 Data dictionary tests can be run by typing:
 
@@ -43,4 +43,4 @@ approach for changing version numbers uses a variation on
 [Semantic Versioning](http://semver.org).
 
 A full list of changes for each version can be viewed in the
-[CHANGELOG](https://github.com/<REPOSITORY>/riccadsa-data-dictionary/blob/master/CHANGELOG.md).
+[CHANGELOG](https://github.com/nsrr/riccadsa-data-dictionary/blob/master/CHANGELOG.md).
